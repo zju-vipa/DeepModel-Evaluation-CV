@@ -1,0 +1,36 @@
+INFO:root:Description: 预训练日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'arch': 'resnet34', 'domain_label': 'real', 'lr': 0.01, 'lr_factor': 0.2, 'bs': 8, 'lr_step': 50, 'momentum': 0.9, 'weight_decay': 0.0005, 'tensorboard_path': './runs/domainnet/real/resnet34', 'checkpoint_path': './checkpoints/domainnet/real/resnet34', 'checkpoint_save_step': 5, 'log_path': './log/resnet34/domainnet/real/log1.log', 'end_epoch': 300}
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.4728, Accuracy: 0.1225
+INFO:root:Description: 预训练日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'arch': 'resnet34', 'domain_label': 'real', 'lr': 0.01, 'lr_factor': 0.2, 'bs': 8, 'lr_step': 50, 'momentum': 0.9, 'weight_decay': 0.0005, 'tensorboard_path': './runs/domainnet/real/resnet34', 'checkpoint_path': './checkpoints/domainnet/real/resnet34', 'checkpoint_save_step': 5, 'log_path': './log/resnet34/domainnet/real/log1.log', 'end_epoch': 300}
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.5055, Accuracy: 0.1186
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.4247, Accuracy: 0.0878
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.5173, Accuracy: 0.1129
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.4791, Accuracy: 0.1453
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.5410, Accuracy: 0.1086
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.5198, Accuracy: 0.1858
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.5555, Accuracy: 0.1094
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.5775, Accuracy: 0.1046
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.4480, Accuracy: 0.2165
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.5835, Accuracy: 0.0982
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.3896, Accuracy: 0.2605
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.5907, Accuracy: 0.0961
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.4638, Accuracy: 0.2922
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.5749, Accuracy: 0.1118
+INFO:root:Description: 预训练日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'arch': 'resnet34', 'domain_label': 'real', 'lr': 0.001, 'lr_factor': 0.2, 'bs': 8, 'lr_step': 50, 'momentum': 0.9, 'weight_decay': 0.0005, 'tensorboard_path': './runs/domainnet/real/resnet34', 'checkpoint_path': './checkpoints/domainnet/real/resnet34', 'checkpoint_save_step': 5, 'log_path': './log/resnet34/domainnet/real/log1.log', 'end_epoch': 300}
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6155, Accuracy: 0.0921
+INFO:root:Test set: LR: 0.00100000,  Average loss: 0.4446, Accuracy: 0.1634
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6340, Accuracy: 0.0909
+INFO:root:Test set: LR: 0.00100000,  Average loss: 0.4274, Accuracy: 0.1956
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6239, Accuracy: 0.0909
+INFO:root:Test set: LR: 0.00100000,  Average loss: 0.5258, Accuracy: 0.2166
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6634, Accuracy: 0.0813
+INFO:root:Test set: LR: 0.00100000,  Average loss: 0.4036, Accuracy: 0.2587
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6758, Accuracy: 0.0774
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6506, Accuracy: 0.0851
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6674, Accuracy: 0.0800
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6709, Accuracy: 0.0795
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6953, Accuracy: 0.0722
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.6953, Accuracy: 0.0720
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.7045, Accuracy: 0.0699

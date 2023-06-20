@@ -1,0 +1,165 @@
+INFO:root:Load test models
+INFO:root:Load model resnet18
+INFO:root:Load model resnet34
+INFO:root:Load model resnet50
+INFO:root:Load model resnet101
+INFO:root:Test set: Average loss: 0.0004, Accuracy: 0.9907
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0002, Accuracy: 0.9953
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9968
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9979
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9985
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9990
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9993
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9995
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9996
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9996
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9999
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9999
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9999
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:resnet18 pre-trained on cifar100  : Best Acc=0.9998500347137451, Epoch: 17
+INFO:root:Summary name cifar100->mnist BestAcc190/depth is illegal; using cifar100-_mnist_BestAcc190/depth instead.
+INFO:root:Test set: Average loss: 0.0003, Accuracy: 0.9933
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9967
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9980
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9987
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9994
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9995
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9996
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9996
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:resnet34 pre-trained on cifar100  : Best Acc=0.9997833371162415, Epoch: 19
+INFO:root:Summary name cifar100->mnist BestAcc190/depth is illegal; using cifar100-_mnist_BestAcc190/depth instead.
+INFO:root:Test set: Average loss: 0.0003, Accuracy: 0.9919
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0002, Accuracy: 0.9960
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9977
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9986
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9991
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9993
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9995
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9995
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9995
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9996
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:resnet50 pre-trained on cifar100  : Best Acc=0.9997667074203491, Epoch: 15
+INFO:root:Summary name cifar100->mnist BestAcc190/depth is illegal; using cifar100-_mnist_BestAcc190/depth instead.
+INFO:root:Test set: Average loss: 0.0003, Accuracy: 0.9937
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9971
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0001, Accuracy: 0.9986
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9992
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9995
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9997
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9999
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9999
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9999
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9999
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:Test set: Average loss: 0.0000, Accuracy: 0.9998
+INFO:root:Summary name Test/Average loss is illegal; using Test/Average_loss instead.
+INFO:root:resnet101 pre-trained on cifar100  : Best Acc=0.9998500347137451, Epoch: 11
+INFO:root:Summary name cifar100->mnist BestAcc190/depth is illegal; using cifar100-_mnist_BestAcc190/depth instead.

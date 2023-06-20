@@ -1,0 +1,32 @@
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'quickdraw', 'arch': 'densenet161', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/domainnet/real/densenet161/2023-05-06T03:33:45.857828/densenet161-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_quickdraw_40_10/densenet161', 'checkpoint_path': 'checkpoints/GT/real_quickdraw_40_10/densenet161', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_quickdraw_40_10/densenet161/log1.log', 'end_epoch': 20}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'quickdraw', 'arch': 'densenet161', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/domainnet/real/densenet161/2023-05-06T03:33:45.857828/densenet161-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_quickdraw_40_10/densenet161', 'checkpoint_path': 'checkpoints/GT/real_quickdraw_40_10/densenet161', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_quickdraw_40_10/densenet161/log1.log', 'end_epoch': 20}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'quickdraw', 'arch': 'densenet161', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/domainnet/real/densenet161/2023-05-06T03:33:45.857828/densenet161-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_quickdraw_40_10/densenet161', 'checkpoint_path': 'checkpoints/GT/real_quickdraw_40_10/densenet161', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_quickdraw_40_10/densenet161/log1.log', 'end_epoch': 20}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'quickdraw', 'arch': 'densenet161', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/domainnet/real/densenet161/2023-05-06T03:33:45.857828/densenet161-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_quickdraw_40_10/densenet161', 'checkpoint_path': 'checkpoints/GT/real_quickdraw_40_10/densenet161', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_quickdraw_40_10/densenet161/log1.log', 'end_epoch': 20}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'quickdraw', 'arch': 'densenet161', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/domainnet/real/densenet161/2023-05-06T03:33:45.857828/densenet161-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_quickdraw_40_10/densenet161', 'checkpoint_path': 'checkpoints/GT/real_quickdraw_40_10/densenet161', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_quickdraw_40_10/densenet161/log1.log', 'end_epoch': 20}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'quickdraw', 'arch': 'densenet161', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/domainnet/real/densenet161/2023-05-06T03:33:45.857828/densenet161-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 8, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_quickdraw_40_10/densenet161', 'checkpoint_path': 'checkpoints/GT/real_quickdraw_40_10/densenet161', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_quickdraw_40_10/densenet161/log1.log', 'end_epoch': 20}
+INFO:root:Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.4516, Accuracy: 0.0765
+INFO:root:Epoch 2 Test set: LR: 0.00099384,  Average loss: 0.4432, Accuracy: 0.1150
+INFO:root:Epoch 3 Test set: LR: 0.00097553,  Average loss: 0.4325, Accuracy: 0.1743
+INFO:root:Epoch 4 Test set: LR: 0.00094550,  Average loss: 0.4212, Accuracy: 0.1618
+INFO:root:Epoch 5 Test set: LR: 0.00090451,  Average loss: 0.4111, Accuracy: 0.1890
+INFO:root:Epoch 6 Test set: LR: 0.00085355,  Average loss: 0.3956, Accuracy: 0.2073
+INFO:root:Epoch 7 Test set: LR: 0.00079389,  Average loss: 0.3909, Accuracy: 0.2388
+INFO:root:Epoch 8 Test set: LR: 0.00072700,  Average loss: 0.3792, Accuracy: 0.2433
+INFO:root:Epoch 9 Test set: LR: 0.00065451,  Average loss: 0.3729, Accuracy: 0.2518
+INFO:root:Epoch 10 Test set: LR: 0.00057822,  Average loss: 0.3660, Accuracy: 0.2598
+INFO:root:Epoch 11 Test set: LR: 0.00050000,  Average loss: 0.3587, Accuracy: 0.2918
+INFO:root:Epoch 12 Test set: LR: 0.00042178,  Average loss: 0.3538, Accuracy: 0.3028
+INFO:root:Epoch 13 Test set: LR: 0.00034549,  Average loss: 0.3504, Accuracy: 0.2978
+INFO:root:Epoch 14 Test set: LR: 0.00027300,  Average loss: 0.3496, Accuracy: 0.3083
+INFO:root:Epoch 15 Test set: LR: 0.00020611,  Average loss: 0.3461, Accuracy: 0.3185
+INFO:root:Epoch 16 Test set: LR: 0.00014645,  Average loss: 0.3452, Accuracy: 0.3138
+INFO:root:Epoch 17 Test set: LR: 0.00009549,  Average loss: 0.3453, Accuracy: 0.3363
+INFO:root:Epoch 18 Test set: LR: 0.00005450,  Average loss: 0.3436, Accuracy: 0.3270
+INFO:root:Epoch 19 Test set: LR: 0.00002447,  Average loss: 0.3417, Accuracy: 0.3313
+INFO:root:Epoch 20 Test set: LR: 0.00000616,  Average loss: 0.3423, Accuracy: 0.3288

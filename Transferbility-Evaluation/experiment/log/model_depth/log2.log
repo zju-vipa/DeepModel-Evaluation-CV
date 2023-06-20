@@ -1,0 +1,78 @@
+INFO:root:Description: 模型深度和迁移学习性能关系的实验, 选择TinyFood101, 计算快一些, 取前0.4 * 101 = 25 个类别，每个类别选择 750 * 0.6 = 450个样本来训练，测试选择全量250张图片，分辨率统一128*128，无数据增强，其他参数如下所示
+INFO:root:{'source_dataset': 'cifar100', 'target_dataset': 'tinyfood101', 'lr': 0.001, 'weight_decay': 0.0003, 'pretrained_epoch': 150, 'log_name': 'log2.log', 'sample_ratio': 0.6, 'class_ratio': 0.4, 'model_name_list': ['resnet18', 'resnet34', 'resnet50', 'resnet101', 'resnet152']}
+INFO:root:Load test models
+INFO:root:Load model resnet18
+INFO:root:Load model resnet34
+INFO:root:Load model resnet50
+INFO:root:Load model resnet101
+INFO:root:Load model resnet152
+INFO:root:Test set: Average loss: 0.0299, Accuracy: 0.0367
+INFO:root:Test set: Average loss: 0.0299, Accuracy: 0.0323
+INFO:root:Test set: Average loss: 0.0294, Accuracy: 0.0305
+INFO:root:Test set: Average loss: 0.0293, Accuracy: 0.0327
+INFO:root:Test set: Average loss: 0.0293, Accuracy: 0.0308
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0303
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0267
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0281
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0276
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0278
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0277
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0278
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0280
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0281
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0287
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0287
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0287
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0287
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0286
+INFO:root:resnet18 pre-trained on cifar100  : Best Acc=0.03669999912381172, Epoch: 1
+INFO:root:Summary name cifar100_tinyfood101-0.4-0.6 BestAcc150/depth is illegal; using cifar100_tinyfood101-0.4-0.6_BestAcc150/depth instead.
+INFO:root:Description: 模型深度和迁移学习性能关系的实验, 选择TinyFood101, 计算快一些, 取前0.4 * 101 = 25 个类别，每个类别选择 750 * 0.6 = 450个样本来训练，测试选择全量250张图片，分辨率统一128*128，无数据增强，其他参数如下所示
+INFO:root:{'source_dataset': 'cifar100', 'target_dataset': 'tinyfood101', 'lr': 0.001, 'weight_decay': 0.0003, 'pretrained_epoch': 150, 'log_name': 'log2.log', 'sample_ratio': 0.6, 'class_ratio': 0.4, 'model_name_list': ['resnet18', 'resnet34', 'resnet50', 'resnet101', 'resnet152']}
+INFO:root:Load test models
+INFO:root:Load model resnet18
+INFO:root:Load model resnet34
+INFO:root:Load model resnet50
+INFO:root:Load model resnet101
+INFO:root:Load model resnet152
+INFO:root:Test set: Average loss: 0.0299, Accuracy: 0.0253
+INFO:root:Test set: Average loss: 0.0299, Accuracy: 0.0295
+INFO:root:Test set: Average loss: 0.0294, Accuracy: 0.0283
+INFO:root:Test set: Average loss: 0.0293, Accuracy: 0.0315
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0268
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0256
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0246
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0242
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0245
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0238
+INFO:root:Test set: Average loss: 0.0292, Accuracy: 0.0241

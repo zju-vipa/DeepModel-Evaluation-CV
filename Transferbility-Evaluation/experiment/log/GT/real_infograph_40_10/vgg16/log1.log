@@ -1,0 +1,44 @@
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'infograph', 'arch': 'vgg16', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/domainnet/real/vgg16/2023-05-03T17:11:57.481693/vgg16-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_infograph_40_10/vgg16', 'checkpoint_path': 'checkpoints/GT/real_infograph_40_10/vgg16', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_infograph_40_10/vgg16/log1.log', 'end_epoch': 20}
+INFO:root:Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.2334, Accuracy: 0.0226
+INFO:root:Epoch 2 Test set: LR: 0.00099384,  Average loss: 0.2333, Accuracy: 0.0344
+INFO:root:Epoch 3 Test set: LR: 0.00097553,  Average loss: 0.2332, Accuracy: 0.0552
+INFO:root:Epoch 4 Test set: LR: 0.00094550,  Average loss: 0.2332, Accuracy: 0.0624
+INFO:root:Epoch 5 Test set: LR: 0.00090451,  Average loss: 0.2331, Accuracy: 0.0606
+INFO:root:Epoch 6 Test set: LR: 0.00085355,  Average loss: 0.2331, Accuracy: 0.0542
+INFO:root:Epoch 7 Test set: LR: 0.00079389,  Average loss: 0.2329, Accuracy: 0.0913
+INFO:root:Epoch 8 Test set: LR: 0.00072700,  Average loss: 0.2329, Accuracy: 0.0741
+INFO:root:Epoch 9 Test set: LR: 0.00065451,  Average loss: 0.2328, Accuracy: 0.0850
+INFO:root:Epoch 10 Test set: LR: 0.00057822,  Average loss: 0.2327, Accuracy: 0.0759
+INFO:root:Epoch 11 Test set: LR: 0.00050000,  Average loss: 0.2327, Accuracy: 0.0877
+INFO:root:Epoch 12 Test set: LR: 0.00042178,  Average loss: 0.2326, Accuracy: 0.0931
+INFO:root:Epoch 13 Test set: LR: 0.00034549,  Average loss: 0.2326, Accuracy: 0.0886
+INFO:root:Epoch 14 Test set: LR: 0.00027300,  Average loss: 0.2326, Accuracy: 0.0859
+INFO:root:Epoch 15 Test set: LR: 0.00020611,  Average loss: 0.2326, Accuracy: 0.0841
+INFO:root:Epoch 16 Test set: LR: 0.00014645,  Average loss: 0.2325, Accuracy: 0.0832
+INFO:root:Epoch 17 Test set: LR: 0.00009549,  Average loss: 0.2325, Accuracy: 0.0850
+INFO:root:Epoch 18 Test set: LR: 0.00005450,  Average loss: 0.2325, Accuracy: 0.0868
+INFO:root:Epoch 19 Test set: LR: 0.00002447,  Average loss: 0.2325, Accuracy: 0.0904
+INFO:root:Epoch 20 Test set: LR: 0.00000616,  Average loss: 0.2325, Accuracy: 0.0895
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'infograph', 'arch': 'vgg16', 'model_path': '/nfs4/wjx/transferbility/experiment/checkpoints/domainnet/real/vgg16/2023-05-03T17:11:57.481693/vgg16-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 64, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_infograph_40_10/vgg16', 'checkpoint_path': 'checkpoints/GT/real_infograph_40_10/vgg16', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_infograph_40_10/vgg16/log1.log', 'end_epoch': 20}
+INFO:root:Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.0581, Accuracy: 0.1863
+INFO:root:Epoch 2 Test set: LR: 0.00099384,  Average loss: 0.0580, Accuracy: 0.1935
+INFO:root:Epoch 3 Test set: LR: 0.00097553,  Average loss: 0.0578, Accuracy: 0.2071
+INFO:root:Epoch 4 Test set: LR: 0.00094550,  Average loss: 0.0575, Accuracy: 0.2052
+INFO:root:Epoch 5 Test set: LR: 0.00090451,  Average loss: 0.0573, Accuracy: 0.2052
+INFO:root:Epoch 6 Test set: LR: 0.00085355,  Average loss: 0.0570, Accuracy: 0.2116
+INFO:root:Epoch 7 Test set: LR: 0.00079389,  Average loss: 0.0568, Accuracy: 0.2098
+INFO:root:Epoch 8 Test set: LR: 0.00072700,  Average loss: 0.0564, Accuracy: 0.2034
+INFO:root:Epoch 9 Test set: LR: 0.00065451,  Average loss: 0.0562, Accuracy: 0.2116
+INFO:root:Epoch 10 Test set: LR: 0.00057822,  Average loss: 0.0560, Accuracy: 0.2170
+INFO:root:Epoch 11 Test set: LR: 0.00050000,  Average loss: 0.0559, Accuracy: 0.2179
+INFO:root:Epoch 12 Test set: LR: 0.00042178,  Average loss: 0.0557, Accuracy: 0.2215
+INFO:root:Epoch 13 Test set: LR: 0.00034549,  Average loss: 0.0555, Accuracy: 0.2233
+INFO:root:Epoch 14 Test set: LR: 0.00027300,  Average loss: 0.0553, Accuracy: 0.2215
+INFO:root:Epoch 15 Test set: LR: 0.00020611,  Average loss: 0.0553, Accuracy: 0.2260
+INFO:root:Epoch 16 Test set: LR: 0.00014645,  Average loss: 0.0553, Accuracy: 0.2233
+INFO:root:Epoch 17 Test set: LR: 0.00009549,  Average loss: 0.0553, Accuracy: 0.2251
+INFO:root:Epoch 18 Test set: LR: 0.00005450,  Average loss: 0.0553, Accuracy: 0.2278
+INFO:root:Epoch 19 Test set: LR: 0.00002447,  Average loss: 0.0553, Accuracy: 0.2269
+INFO:root:Epoch 20 Test set: LR: 0.00000616,  Average loss: 0.0551, Accuracy: 0.2242

@@ -1,0 +1,288 @@
+INFO:root:Description: 预训练日志，参数如下
+INFO:root:{'source_dataset': 'cifar100', 'arch': 'resnet18', 'domain_label': 'real', 'lr': 0.1, 'model_path': '', 'resume': False, 'lr_factor': 0.2, 'bs': 64, 'lr_step': 50, 'momentum': 0.9, 'weight_decay': 0.0005, 'tensorboard_path': 'runs/cifar100/resnet18', 'checkpoint_path': 'checkpoints/cifar100/resnet18', 'checkpoint_save_step': 5, 'log_path': 'log/resnet18/cifar100/pretrain.log', 'end_epoch': 200}
+INFO:root:Train sample num: 50000
+INFO:root:Test sample num: 10000
+INFO:root:ResNet(
+  (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+  (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (relu): ReLU(inplace=True)
+  (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+  (layer1): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (layer2): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(64, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(64, 128, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (layer3): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(128, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(128, 256, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (layer4): Sequential(
+    (0): BasicBlock(
+      (conv1): Conv2d(256, 512, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (downsample): Sequential(
+        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+    )
+    (1): BasicBlock(
+      (conv1): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (relu): ReLU(inplace=True)
+      (conv2): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn2): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    )
+  )
+  (avgpool): AdaptiveAvgPool2d(output_size=(1, 1))
+  (fc): Linear(in_features=512, out_features=100, bias=True)
+)
+INFO:root:Epoch 1, Test set: LR: 0.10000000,  Average loss: 0.0614, Accuracy: 0.0873
+INFO:root:Epoch 2, Test set: LR: 0.10000000,  Average loss: 0.0587, Accuracy: 0.1249
+INFO:root:Epoch 3, Test set: LR: 0.10000000,  Average loss: 0.0542, Accuracy: 0.1647
+INFO:root:Epoch 4, Test set: LR: 0.10000000,  Average loss: 0.0518, Accuracy: 0.1981
+INFO:root:Epoch 5, Test set: LR: 0.10000000,  Average loss: 0.0503, Accuracy: 0.2212
+INFO:root:Epoch 6, Test set: LR: 0.10000000,  Average loss: 0.0501, Accuracy: 0.2190
+INFO:root:Epoch 7, Test set: LR: 0.09999383,  Average loss: 0.0484, Accuracy: 0.2422
+INFO:root:Epoch 8, Test set: LR: 0.09999383,  Average loss: 0.0516, Accuracy: 0.2212
+INFO:root:Epoch 9, Test set: LR: 0.09997533,  Average loss: 0.0499, Accuracy: 0.2331
+INFO:root:Epoch 10, Test set: LR: 0.09994449,  Average loss: 0.0490, Accuracy: 0.2308
+INFO:root:Epoch 11, Test set: LR: 0.09990134,  Average loss: 0.0488, Accuracy: 0.2444
+INFO:root:Epoch 12, Test set: LR: 0.09990134,  Average loss: 0.0460, Accuracy: 0.2728
+INFO:root:Epoch 13, Test set: LR: 0.09990134,  Average loss: 0.0467, Accuracy: 0.2591
+INFO:root:Epoch 14, Test set: LR: 0.09984587,  Average loss: 0.0454, Accuracy: 0.2723
+INFO:root:Epoch 15, Test set: LR: 0.09977810,  Average loss: 0.0477, Accuracy: 0.2565
+INFO:root:Epoch 16, Test set: LR: 0.09969805,  Average loss: 0.0455, Accuracy: 0.2798
+INFO:root:Epoch 17, Test set: LR: 0.09969805,  Average loss: 0.0473, Accuracy: 0.2581
+INFO:root:Epoch 18, Test set: LR: 0.09960574,  Average loss: 0.0450, Accuracy: 0.2822
+INFO:root:Epoch 19, Test set: LR: 0.09960574,  Average loss: 0.0453, Accuracy: 0.2734
+INFO:root:Epoch 20, Test set: LR: 0.09950118,  Average loss: 0.0469, Accuracy: 0.2734
+INFO:root:Epoch 21, Test set: LR: 0.09938442,  Average loss: 0.0462, Accuracy: 0.2720
+INFO:root:Epoch 22, Test set: LR: 0.09925547,  Average loss: 0.0443, Accuracy: 0.2958
+INFO:root:Epoch 23, Test set: LR: 0.09925547,  Average loss: 0.0458, Accuracy: 0.2757
+INFO:root:Epoch 24, Test set: LR: 0.09911436,  Average loss: 0.0444, Accuracy: 0.3000
+INFO:root:Epoch 25, Test set: LR: 0.09911436,  Average loss: 0.0438, Accuracy: 0.2978
+INFO:root:Epoch 26, Test set: LR: 0.09896114,  Average loss: 0.0477, Accuracy: 0.2619
+INFO:root:Epoch 27, Test set: LR: 0.09879584,  Average loss: 0.0460, Accuracy: 0.2815
+INFO:root:Epoch 28, Test set: LR: 0.09861850,  Average loss: 0.0440, Accuracy: 0.2952
+INFO:root:Epoch 29, Test set: LR: 0.09842916,  Average loss: 0.0427, Accuracy: 0.3134
+INFO:root:Epoch 30, Test set: LR: 0.09842916,  Average loss: 0.0458, Accuracy: 0.2858
+INFO:root:Epoch 31, Test set: LR: 0.09822787,  Average loss: 0.0449, Accuracy: 0.2889
+INFO:root:Epoch 32, Test set: LR: 0.09801468,  Average loss: 0.0449, Accuracy: 0.2901
+INFO:root:Epoch 33, Test set: LR: 0.09778965,  Average loss: 0.0470, Accuracy: 0.2777
+INFO:root:Epoch 34, Test set: LR: 0.09755283,  Average loss: 0.0434, Accuracy: 0.3060
+INFO:root:Epoch 35, Test set: LR: 0.09730427,  Average loss: 0.0462, Accuracy: 0.2863
+INFO:root:Epoch 36, Test set: LR: 0.09704404,  Average loss: 0.0466, Accuracy: 0.2759
+INFO:root:Epoch 37, Test set: LR: 0.09677220,  Average loss: 0.0446, Accuracy: 0.2882
+INFO:root:Epoch 38, Test set: LR: 0.09648882,  Average loss: 0.0427, Accuracy: 0.3124
+INFO:root:Epoch 39, Test set: LR: 0.09619398,  Average loss: 0.0461, Accuracy: 0.2862
+INFO:root:Epoch 40, Test set: LR: 0.09588773,  Average loss: 0.0429, Accuracy: 0.3142
+INFO:root:Epoch 41, Test set: LR: 0.09588773,  Average loss: 0.0440, Accuracy: 0.3012
+INFO:root:Epoch 42, Test set: LR: 0.09557016,  Average loss: 0.0421, Accuracy: 0.3176
+INFO:root:Epoch 43, Test set: LR: 0.09557016,  Average loss: 0.0437, Accuracy: 0.3072
+INFO:root:Epoch 44, Test set: LR: 0.09524135,  Average loss: 0.0472, Accuracy: 0.2741
+INFO:root:Epoch 45, Test set: LR: 0.09490138,  Average loss: 0.0450, Accuracy: 0.3011
+INFO:root:Epoch 46, Test set: LR: 0.09455033,  Average loss: 0.0460, Accuracy: 0.2922
+INFO:root:Epoch 47, Test set: LR: 0.09418828,  Average loss: 0.0437, Accuracy: 0.3057
+INFO:root:Epoch 48, Test set: LR: 0.09381533,  Average loss: 0.0416, Accuracy: 0.3240
+INFO:root:Epoch 49, Test set: LR: 0.09381533,  Average loss: 0.0442, Accuracy: 0.3049
+INFO:root:Epoch 50, Test set: LR: 0.09343158,  Average loss: 0.0443, Accuracy: 0.3123
+INFO:root:Epoch 51, Test set: LR: 0.09303710,  Average loss: 0.0425, Accuracy: 0.3155
+INFO:root:Epoch 52, Test set: LR: 0.09263201,  Average loss: 0.0466, Accuracy: 0.2816
+INFO:root:Epoch 53, Test set: LR: 0.09221640,  Average loss: 0.0420, Accuracy: 0.3270
+INFO:root:Epoch 54, Test set: LR: 0.09221640,  Average loss: 0.0443, Accuracy: 0.2964
+INFO:root:Epoch 55, Test set: LR: 0.09179037,  Average loss: 0.0422, Accuracy: 0.3246
+INFO:root:Epoch 56, Test set: LR: 0.09135403,  Average loss: 0.0439, Accuracy: 0.3164
+INFO:root:Epoch 57, Test set: LR: 0.09090749,  Average loss: 0.0438, Accuracy: 0.3162
+INFO:root:Epoch 58, Test set: LR: 0.09045085,  Average loss: 0.0444, Accuracy: 0.2975
+INFO:root:Epoch 59, Test set: LR: 0.08998423,  Average loss: 0.0428, Accuracy: 0.3113
+INFO:root:Epoch 60, Test set: LR: 0.08950775,  Average loss: 0.0426, Accuracy: 0.3228
+INFO:root:Epoch 61, Test set: LR: 0.08902152,  Average loss: 0.0446, Accuracy: 0.2939
+INFO:root:Epoch 62, Test set: LR: 0.08852566,  Average loss: 0.0427, Accuracy: 0.3231
+INFO:root:Epoch 63, Test set: LR: 0.08802030,  Average loss: 0.0447, Accuracy: 0.2976
+INFO:root:Epoch 64, Test set: LR: 0.08750555,  Average loss: 0.0428, Accuracy: 0.3246
+INFO:root:Epoch 65, Test set: LR: 0.08698155,  Average loss: 0.0429, Accuracy: 0.3088
+INFO:root:Epoch 66, Test set: LR: 0.08644843,  Average loss: 0.0422, Accuracy: 0.3290
+INFO:root:Epoch 67, Test set: LR: 0.08644843,  Average loss: 0.0440, Accuracy: 0.3074
+INFO:root:Epoch 68, Test set: LR: 0.08590631,  Average loss: 0.0451, Accuracy: 0.3005
+INFO:root:Epoch 69, Test set: LR: 0.08535534,  Average loss: 0.0424, Accuracy: 0.3191
+INFO:root:Epoch 70, Test set: LR: 0.08479564,  Average loss: 0.0422, Accuracy: 0.3292
+INFO:root:Epoch 71, Test set: LR: 0.08479564,  Average loss: 0.0486, Accuracy: 0.2773
+INFO:root:Epoch 72, Test set: LR: 0.08422736,  Average loss: 0.0447, Accuracy: 0.2969
+INFO:root:Epoch 73, Test set: LR: 0.08365063,  Average loss: 0.0405, Accuracy: 0.3559
+INFO:root:Epoch 74, Test set: LR: 0.08365063,  Average loss: 0.0407, Accuracy: 0.3395
+INFO:root:Epoch 75, Test set: LR: 0.08306559,  Average loss: 0.0427, Accuracy: 0.3260
+INFO:root:Epoch 76, Test set: LR: 0.08247240,  Average loss: 0.0439, Accuracy: 0.3075
+INFO:root:Epoch 77, Test set: LR: 0.08187120,  Average loss: 0.0424, Accuracy: 0.3242
+INFO:root:Epoch 78, Test set: LR: 0.08126213,  Average loss: 0.0407, Accuracy: 0.3399
+INFO:root:Epoch 79, Test set: LR: 0.08064535,  Average loss: 0.0470, Accuracy: 0.2855
+INFO:root:Epoch 80, Test set: LR: 0.08002101,  Average loss: 0.0432, Accuracy: 0.3202
+INFO:root:Epoch 81, Test set: LR: 0.07938926,  Average loss: 0.0423, Accuracy: 0.3268
+INFO:root:Epoch 82, Test set: LR: 0.07875026,  Average loss: 0.0433, Accuracy: 0.3151
+INFO:root:Epoch 83, Test set: LR: 0.07810417,  Average loss: 0.0401, Accuracy: 0.3558
+INFO:root:Epoch 84, Test set: LR: 0.07745114,  Average loss: 0.0418, Accuracy: 0.3396
+INFO:root:Epoch 85, Test set: LR: 0.07679134,  Average loss: 0.0402, Accuracy: 0.3538
+INFO:root:Epoch 86, Test set: LR: 0.07612493,  Average loss: 0.0421, Accuracy: 0.3330
+INFO:root:Epoch 87, Test set: LR: 0.07545207,  Average loss: 0.0420, Accuracy: 0.3354
+INFO:root:Epoch 88, Test set: LR: 0.07477293,  Average loss: 0.0399, Accuracy: 0.3504
+INFO:root:Epoch 89, Test set: LR: 0.07408768,  Average loss: 0.0415, Accuracy: 0.3382
+INFO:root:Epoch 90, Test set: LR: 0.07339649,  Average loss: 0.0392, Accuracy: 0.3620
+INFO:root:Epoch 91, Test set: LR: 0.07339649,  Average loss: 0.0426, Accuracy: 0.3245
+INFO:root:Epoch 92, Test set: LR: 0.07269952,  Average loss: 0.0443, Accuracy: 0.3137
+INFO:root:Epoch 93, Test set: LR: 0.07199696,  Average loss: 0.0414, Accuracy: 0.3321
+INFO:root:Epoch 94, Test set: LR: 0.07128896,  Average loss: 0.0414, Accuracy: 0.3401
+INFO:root:Epoch 95, Test set: LR: 0.07057572,  Average loss: 0.0396, Accuracy: 0.3579
+INFO:root:Epoch 96, Test set: LR: 0.06985739,  Average loss: 0.0401, Accuracy: 0.3515
+INFO:root:Epoch 97, Test set: LR: 0.06913417,  Average loss: 0.0386, Accuracy: 0.3688
+INFO:root:Epoch 98, Test set: LR: 0.06913417,  Average loss: 0.0399, Accuracy: 0.3555
+INFO:root:Epoch 99, Test set: LR: 0.06840623,  Average loss: 0.0426, Accuracy: 0.3307
+INFO:root:Epoch 100, Test set: LR: 0.06767374,  Average loss: 0.0427, Accuracy: 0.3329
+INFO:root:Epoch 101, Test set: LR: 0.06693690,  Average loss: 0.0406, Accuracy: 0.3543
+INFO:root:Epoch 102, Test set: LR: 0.06619587,  Average loss: 0.0409, Accuracy: 0.3511
+INFO:root:Epoch 103, Test set: LR: 0.06545085,  Average loss: 0.0395, Accuracy: 0.3627
+INFO:root:Epoch 104, Test set: LR: 0.06470202,  Average loss: 0.0400, Accuracy: 0.3533
+INFO:root:Epoch 105, Test set: LR: 0.06394956,  Average loss: 0.0393, Accuracy: 0.3698
+INFO:root:Epoch 106, Test set: LR: 0.06394956,  Average loss: 0.0389, Accuracy: 0.3648
+INFO:root:Epoch 107, Test set: LR: 0.06319365,  Average loss: 0.0424, Accuracy: 0.3387
+INFO:root:Epoch 108, Test set: LR: 0.06243449,  Average loss: 0.0399, Accuracy: 0.3600
+INFO:root:Epoch 109, Test set: LR: 0.06167227,  Average loss: 0.0388, Accuracy: 0.3678
+INFO:root:Epoch 110, Test set: LR: 0.06090716,  Average loss: 0.0403, Accuracy: 0.3598
+INFO:root:Epoch 111, Test set: LR: 0.06013936,  Average loss: 0.0385, Accuracy: 0.3768
+INFO:root:Epoch 112, Test set: LR: 0.06013936,  Average loss: 0.0387, Accuracy: 0.3825
+INFO:root:Epoch 113, Test set: LR: 0.06013936,  Average loss: 0.0392, Accuracy: 0.3713
+INFO:root:Epoch 114, Test set: LR: 0.05936907,  Average loss: 0.0384, Accuracy: 0.3750
+INFO:root:Epoch 115, Test set: LR: 0.05859646,  Average loss: 0.0388, Accuracy: 0.3741
+INFO:root:Epoch 116, Test set: LR: 0.05782172,  Average loss: 0.0397, Accuracy: 0.3608
+INFO:root:Epoch 117, Test set: LR: 0.05704506,  Average loss: 0.0382, Accuracy: 0.3809
+INFO:root:Epoch 118, Test set: LR: 0.05626666,  Average loss: 0.0388, Accuracy: 0.3725
+INFO:root:Epoch 119, Test set: LR: 0.05548672,  Average loss: 0.0376, Accuracy: 0.3819
+INFO:root:Epoch 120, Test set: LR: 0.05470542,  Average loss: 0.0380, Accuracy: 0.3806
+INFO:root:Epoch 121, Test set: LR: 0.05392295,  Average loss: 0.0377, Accuracy: 0.3777
+INFO:root:Epoch 122, Test set: LR: 0.05313953,  Average loss: 0.0370, Accuracy: 0.3953
+INFO:root:Epoch 123, Test set: LR: 0.05313953,  Average loss: 0.0375, Accuracy: 0.3884
+INFO:root:Epoch 124, Test set: LR: 0.05235532,  Average loss: 0.0377, Accuracy: 0.3837
+INFO:root:Epoch 125, Test set: LR: 0.05157054,  Average loss: 0.0381, Accuracy: 0.3864
+INFO:root:Epoch 126, Test set: LR: 0.05078537,  Average loss: 0.0378, Accuracy: 0.3773
+INFO:root:Epoch 127, Test set: LR: 0.05000000,  Average loss: 0.0379, Accuracy: 0.3871
+INFO:root:Epoch 128, Test set: LR: 0.04921463,  Average loss: 0.0371, Accuracy: 0.3970
+INFO:root:Epoch 129, Test set: LR: 0.04921463,  Average loss: 0.0369, Accuracy: 0.3921
+INFO:root:Epoch 130, Test set: LR: 0.04842946,  Average loss: 0.0361, Accuracy: 0.4103
+INFO:root:Epoch 131, Test set: LR: 0.04842946,  Average loss: 0.0385, Accuracy: 0.3834
+INFO:root:Epoch 132, Test set: LR: 0.04764468,  Average loss: 0.0365, Accuracy: 0.4009
+INFO:root:Epoch 133, Test set: LR: 0.04686047,  Average loss: 0.0386, Accuracy: 0.3749
+INFO:root:Epoch 134, Test set: LR: 0.04607705,  Average loss: 0.0381, Accuracy: 0.3877
+INFO:root:Epoch 135, Test set: LR: 0.04529458,  Average loss: 0.0367, Accuracy: 0.3949
+INFO:root:Epoch 136, Test set: LR: 0.04451328,  Average loss: 0.0346, Accuracy: 0.4236
+INFO:root:Epoch 137, Test set: LR: 0.04451328,  Average loss: 0.0361, Accuracy: 0.4135
+INFO:root:Epoch 138, Test set: LR: 0.04373334,  Average loss: 0.0370, Accuracy: 0.3987
+INFO:root:Epoch 139, Test set: LR: 0.04295494,  Average loss: 0.0352, Accuracy: 0.4211
+INFO:root:Epoch 140, Test set: LR: 0.04217828,  Average loss: 0.0359, Accuracy: 0.4178
+INFO:root:Epoch 141, Test set: LR: 0.04140354,  Average loss: 0.0361, Accuracy: 0.4063
+INFO:root:Epoch 142, Test set: LR: 0.04063093,  Average loss: 0.0361, Accuracy: 0.4111
+INFO:root:Epoch 143, Test set: LR: 0.03986064,  Average loss: 0.0371, Accuracy: 0.4022
+INFO:root:Epoch 144, Test set: LR: 0.03909284,  Average loss: 0.0345, Accuracy: 0.4219
+INFO:root:Epoch 145, Test set: LR: 0.03832773,  Average loss: 0.0361, Accuracy: 0.4029
+INFO:root:Epoch 146, Test set: LR: 0.03756551,  Average loss: 0.0351, Accuracy: 0.4213
+INFO:root:Epoch 147, Test set: LR: 0.03680635,  Average loss: 0.0356, Accuracy: 0.4206
+INFO:root:Epoch 148, Test set: LR: 0.03605044,  Average loss: 0.0352, Accuracy: 0.4232
+INFO:root:Epoch 149, Test set: LR: 0.03529798,  Average loss: 0.0351, Accuracy: 0.4286
+INFO:root:Epoch 150, Test set: LR: 0.03529798,  Average loss: 0.0345, Accuracy: 0.4290
+INFO:root:Epoch 151, Test set: LR: 0.03529798,  Average loss: 0.0360, Accuracy: 0.4192
+INFO:root:Epoch 152, Test set: LR: 0.03454915,  Average loss: 0.0369, Accuracy: 0.4051
+INFO:root:Epoch 153, Test set: LR: 0.03380413,  Average loss: 0.0363, Accuracy: 0.4130
+INFO:root:Epoch 154, Test set: LR: 0.03306310,  Average loss: 0.0356, Accuracy: 0.4250
+INFO:root:Epoch 155, Test set: LR: 0.03232626,  Average loss: 0.0344, Accuracy: 0.4426
+INFO:root:Epoch 156, Test set: LR: 0.03232626,  Average loss: 0.0335, Accuracy: 0.4386
+INFO:root:Epoch 157, Test set: LR: 0.03159377,  Average loss: 0.0335, Accuracy: 0.4474
+INFO:root:Epoch 158, Test set: LR: 0.03159377,  Average loss: 0.0341, Accuracy: 0.4389
+INFO:root:Epoch 159, Test set: LR: 0.03086583,  Average loss: 0.0330, Accuracy: 0.4500
+INFO:root:Epoch 160, Test set: LR: 0.03086583,  Average loss: 0.0332, Accuracy: 0.4493
+INFO:root:Epoch 161, Test set: LR: 0.03014261,  Average loss: 0.0362, Accuracy: 0.4146
+INFO:root:Epoch 162, Test set: LR: 0.02942428,  Average loss: 0.0339, Accuracy: 0.4492
+INFO:root:Epoch 163, Test set: LR: 0.02871104,  Average loss: 0.0339, Accuracy: 0.4457
+INFO:root:Epoch 164, Test set: LR: 0.02800304,  Average loss: 0.0330, Accuracy: 0.4545
+INFO:root:Epoch 165, Test set: LR: 0.02800304,  Average loss: 0.0326, Accuracy: 0.4601
+INFO:root:Epoch 166, Test set: LR: 0.02800304,  Average loss: 0.0340, Accuracy: 0.4397
+INFO:root:Epoch 167, Test set: LR: 0.02730048,  Average loss: 0.0334, Accuracy: 0.4529
+INFO:root:Epoch 168, Test set: LR: 0.02660351,  Average loss: 0.0329, Accuracy: 0.4546
+INFO:root:Epoch 169, Test set: LR: 0.02591232,  Average loss: 0.0321, Accuracy: 0.4598
+INFO:root:Epoch 170, Test set: LR: 0.02522707,  Average loss: 0.0334, Accuracy: 0.4560
+INFO:root:Epoch 171, Test set: LR: 0.02454793,  Average loss: 0.0333, Accuracy: 0.4605
+INFO:root:Epoch 172, Test set: LR: 0.02454793,  Average loss: 0.0320, Accuracy: 0.4622
+INFO:root:Epoch 173, Test set: LR: 0.02454793,  Average loss: 0.0327, Accuracy: 0.4642
+INFO:root:Epoch 174, Test set: LR: 0.02454793,  Average loss: 0.0340, Accuracy: 0.4432
+INFO:root:Epoch 175, Test set: LR: 0.02387507,  Average loss: 0.0321, Accuracy: 0.4658
+INFO:root:Epoch 176, Test set: LR: 0.02387507,  Average loss: 0.0348, Accuracy: 0.4398
+INFO:root:Epoch 177, Test set: LR: 0.02320866,  Average loss: 0.0321, Accuracy: 0.4687
+INFO:root:Epoch 178, Test set: LR: 0.02320866,  Average loss: 0.0330, Accuracy: 0.4618
+INFO:root:Epoch 179, Test set: LR: 0.02254886,  Average loss: 0.0324, Accuracy: 0.4631
+INFO:root:Epoch 180, Test set: LR: 0.02189583,  Average loss: 0.0322, Accuracy: 0.4598
+INFO:root:Epoch 181, Test set: LR: 0.02124974,  Average loss: 0.0315, Accuracy: 0.4768
+INFO:root:Epoch 182, Test set: LR: 0.02124974,  Average loss: 0.0323, Accuracy: 0.4729
+INFO:root:Epoch 183, Test set: LR: 0.02061074,  Average loss: 0.0313, Accuracy: 0.4756
+INFO:root:Epoch 184, Test set: LR: 0.01997899,  Average loss: 0.0316, Accuracy: 0.4770
+INFO:root:Epoch 185, Test set: LR: 0.01997899,  Average loss: 0.0323, Accuracy: 0.4672
+INFO:root:Epoch 186, Test set: LR: 0.01935465,  Average loss: 0.0312, Accuracy: 0.4828
+INFO:root:Epoch 187, Test set: LR: 0.01935465,  Average loss: 0.0316, Accuracy: 0.4724
+INFO:root:Epoch 188, Test set: LR: 0.01873787,  Average loss: 0.0307, Accuracy: 0.4921
+INFO:root:Epoch 189, Test set: LR: 0.01873787,  Average loss: 0.0311, Accuracy: 0.4840
+INFO:root:Epoch 190, Test set: LR: 0.01812880,  Average loss: 0.0320, Accuracy: 0.4732
+INFO:root:Epoch 191, Test set: LR: 0.01752760,  Average loss: 0.0308, Accuracy: 0.4914
+INFO:root:Epoch 192, Test set: LR: 0.01693441,  Average loss: 0.0304, Accuracy: 0.4937
+INFO:root:Epoch 193, Test set: LR: 0.01693441,  Average loss: 0.0302, Accuracy: 0.4950
+INFO:root:Epoch 194, Test set: LR: 0.01693441,  Average loss: 0.0303, Accuracy: 0.4954
+INFO:root:Epoch 195, Test set: LR: 0.01693441,  Average loss: 0.0314, Accuracy: 0.4850
+INFO:root:Epoch 196, Test set: LR: 0.01634937,  Average loss: 0.0307, Accuracy: 0.4877
+INFO:root:Epoch 197, Test set: LR: 0.01577264,  Average loss: 0.0304, Accuracy: 0.4900
+INFO:root:Epoch 198, Test set: LR: 0.01520436,  Average loss: 0.0303, Accuracy: 0.4940
+INFO:root:Epoch 199, Test set: LR: 0.01464466,  Average loss: 0.0297, Accuracy: 0.5017
+INFO:root:Epoch 200, Test set: LR: 0.01464466,  Average loss: 0.0302, Accuracy: 0.4986

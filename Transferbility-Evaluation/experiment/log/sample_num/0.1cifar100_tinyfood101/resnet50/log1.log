@@ -1,0 +1,94 @@
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'cifar100', 'target_dataset': 'tinyfood101', 'source_domain_label': 'real', 'target_domain_label': None, 'arch': 'resnet50', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/sample_num/cifar100/resnet50/0.1/2023-04-22T14:08:12.887785/resnet50-180-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.01, 'lr_factor': 0.2, 'bs': 16, 'momentum': 0.9, 'lr_step': 10, 'tensorboard_path': 'runs/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_path': 'checkpoints/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_save_step': 5, 'log_path': 'log/sample_num/0.1cifar100_tinyfood101/resnet50/log1.log', 'end_epoch': 300}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'cifar100', 'target_dataset': 'tinyfood101', 'source_domain_label': 'real', 'target_domain_label': None, 'arch': 'resnet50', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/sample_num/cifar100/resnet50/0.1/2023-04-22T14:08:12.887785/resnet50-180-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.01, 'lr_factor': 0.2, 'bs': 16, 'momentum': 0.9, 'lr_step': 10, 'tensorboard_path': 'runs/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_path': 'checkpoints/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_save_step': 5, 'log_path': 'log/sample_num/0.1cifar100_tinyfood101/resnet50/log1.log', 'end_epoch': 300}
+INFO:root:Epoch 1 Test set: LR: 0.01000000,  Average loss: 0.2361, Accuracy: 0.1390
+INFO:root:Epoch 2 Test set: LR: 0.00999973,  Average loss: 0.2622, Accuracy: 0.1821
+INFO:root:Epoch 3 Test set: LR: 0.00999890,  Average loss: 0.2308, Accuracy: 0.1817
+INFO:root:Epoch 4 Test set: LR: 0.00999753,  Average loss: 0.2099, Accuracy: 0.2202
+INFO:root:Epoch 5 Test set: LR: 0.00999561,  Average loss: 0.2034, Accuracy: 0.2472
+INFO:root:Epoch 6 Test set: LR: 0.00999315,  Average loss: 0.2075, Accuracy: 0.2672
+INFO:root:Epoch 7 Test set: LR: 0.00999013,  Average loss: 0.1969, Accuracy: 0.3088
+INFO:root:Epoch 8 Test set: LR: 0.00998657,  Average loss: 0.2079, Accuracy: 0.3031
+INFO:root:Epoch 9 Test set: LR: 0.00998246,  Average loss: 0.1990, Accuracy: 0.3131
+INFO:root:Epoch 10 Test set: LR: 0.00997781,  Average loss: 0.1804, Accuracy: 0.3222
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'cifar100', 'target_dataset': 'tinyfood101', 'source_domain_label': 'real', 'target_domain_label': None, 'arch': 'resnet50', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/sample_num/cifar100/resnet50/0.1/2023-04-22T14:08:12.887785/resnet50-180-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.0001, 'lr_factor': 0.2, 'bs': 16, 'momentum': 0.9, 'lr_step': 10, 'tensorboard_path': 'runs/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_path': 'checkpoints/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_save_step': 5, 'log_path': 'log/sample_num/0.1cifar100_tinyfood101/resnet50/log1.log', 'end_epoch': 300}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'cifar100', 'target_dataset': 'tinyfood101', 'source_domain_label': 'real', 'target_domain_label': None, 'arch': 'resnet50', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/sample_num/cifar100/resnet50/0.1/2023-04-22T14:08:12.887785/resnet50-180-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'lr_factor': 0.2, 'bs': 16, 'momentum': 0.9, 'lr_step': 10, 'tensorboard_path': 'runs/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_path': 'checkpoints/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_save_step': 5, 'log_path': 'log/sample_num/0.1cifar100_tinyfood101/resnet50/log1.log', 'end_epoch': 300}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'cifar100', 'target_dataset': 'tinyfood101', 'source_domain_label': 'real', 'target_domain_label': None, 'arch': 'resnet50', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/sample_num/cifar100/resnet50/0.1/2023-04-22T14:08:12.887785/resnet50-180-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'lr_factor': 0.2, 'bs': 16, 'momentum': 0.9, 'lr_step': 10, 'tensorboard_path': 'runs/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_path': 'checkpoints/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_save_step': 5, 'log_path': 'log/sample_num/0.1cifar100_tinyfood101/resnet50/log1.log', 'end_epoch': 300}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'cifar100', 'target_dataset': 'tinyfood101', 'source_domain_label': 'real', 'target_domain_label': None, 'arch': 'resnet50', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/sample_num/cifar100/resnet50/0.1/2023-04-22T14:08:12.887785/resnet50-180-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'lr_factor': 0.2, 'bs': 16, 'momentum': 0.9, 'lr_step': 10, 'tensorboard_path': 'runs/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_path': 'checkpoints/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_save_step': 5, 'log_path': 'log/sample_num/0.1cifar100_tinyfood101/resnet50/log1.log', 'end_epoch': 300}
+ERROR:root:Error: Source model path is wrong!
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'cifar100', 'target_dataset': 'tinyfood101', 'source_domain_label': 'real', 'target_domain_label': None, 'arch': 'resnet50', 'model_path': '/nfs4/wjx/transferbility/experiment/checkpoints/sample_num/cifar100/resnet50/0.1/2023-04-22T14:08:12.887785/resnet50-180-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'lr_factor': 0.2, 'bs': 16, 'momentum': 0.9, 'lr_step': 10, 'tensorboard_path': 'runs/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_path': 'checkpoints/sample_num/0.1cifar100_tinyfood101/resnet50', 'checkpoint_save_step': 5, 'log_path': 'log/sample_num/0.1cifar100_tinyfood101/resnet50/log1.log', 'end_epoch': 300}
+INFO:root:Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.2497, Accuracy: 0.1004
+INFO:root:Epoch 2 Test set: LR: 0.00099997,  Average loss: 0.2343, Accuracy: 0.1413
+INFO:root:Epoch 3 Test set: LR: 0.00099989,  Average loss: 0.2239, Accuracy: 0.1657
+INFO:root:Epoch 4 Test set: LR: 0.00099975,  Average loss: 0.2187, Accuracy: 0.1795
+INFO:root:Epoch 5 Test set: LR: 0.00099956,  Average loss: 0.2107, Accuracy: 0.2041
+INFO:root:Epoch 6 Test set: LR: 0.00099931,  Average loss: 0.2055, Accuracy: 0.2262
+INFO:root:Epoch 7 Test set: LR: 0.00099901,  Average loss: 0.1987, Accuracy: 0.2450
+INFO:root:Epoch 8 Test set: LR: 0.00099866,  Average loss: 0.1953, Accuracy: 0.2526
+INFO:root:Epoch 9 Test set: LR: 0.00099825,  Average loss: 0.1915, Accuracy: 0.2625
+INFO:root:Epoch 10 Test set: LR: 0.00099778,  Average loss: 0.1840, Accuracy: 0.2937
+INFO:root:Epoch 11 Test set: LR: 0.00099726,  Average loss: 0.1807, Accuracy: 0.3097
+INFO:root:Epoch 12 Test set: LR: 0.00099669,  Average loss: 0.1769, Accuracy: 0.3189
+INFO:root:Epoch 13 Test set: LR: 0.00099606,  Average loss: 0.1747, Accuracy: 0.3273
+INFO:root:Epoch 14 Test set: LR: 0.00099537,  Average loss: 0.1690, Accuracy: 0.3489
+INFO:root:Epoch 15 Test set: LR: 0.00099464,  Average loss: 0.1661, Accuracy: 0.3588
+INFO:root:Epoch 16 Test set: LR: 0.00099384,  Average loss: 0.1633, Accuracy: 0.3682
+INFO:root:Epoch 17 Test set: LR: 0.00099300,  Average loss: 0.1580, Accuracy: 0.3823
+INFO:root:Epoch 18 Test set: LR: 0.00099210,  Average loss: 0.1576, Accuracy: 0.3945
+INFO:root:Epoch 19 Test set: LR: 0.00099114,  Average loss: 0.1532, Accuracy: 0.4049
+INFO:root:Epoch 20 Test set: LR: 0.00099014,  Average loss: 0.1517, Accuracy: 0.4206
+INFO:root:Epoch 21 Test set: LR: 0.00098907,  Average loss: 0.1511, Accuracy: 0.4138
+INFO:root:Epoch 22 Test set: LR: 0.00098796,  Average loss: 0.1486, Accuracy: 0.4294
+INFO:root:Epoch 23 Test set: LR: 0.00098679,  Average loss: 0.1471, Accuracy: 0.4309
+INFO:root:Epoch 24 Test set: LR: 0.00098557,  Average loss: 0.1485, Accuracy: 0.4338
+INFO:root:Epoch 25 Test set: LR: 0.00098429,  Average loss: 0.1363, Accuracy: 0.4653
+INFO:root:Epoch 26 Test set: LR: 0.00098296,  Average loss: 0.1375, Accuracy: 0.4638
+INFO:root:Epoch 27 Test set: LR: 0.00098158,  Average loss: 0.1389, Accuracy: 0.4760
+INFO:root:Epoch 28 Test set: LR: 0.00098015,  Average loss: 0.1524, Accuracy: 0.4745
+INFO:root:Epoch 29 Test set: LR: 0.00097866,  Average loss: 0.1353, Accuracy: 0.4864
+INFO:root:Epoch 30 Test set: LR: 0.00097712,  Average loss: 0.1335, Accuracy: 0.4896
+INFO:root:Epoch 31 Test set: LR: 0.00097553,  Average loss: 0.1268, Accuracy: 0.4977
+INFO:root:Epoch 32 Test set: LR: 0.00097388,  Average loss: 0.1373, Accuracy: 0.5037
+INFO:root:Epoch 33 Test set: LR: 0.00097219,  Average loss: 0.1215, Accuracy: 0.5172
+INFO:root:Epoch 34 Test set: LR: 0.00097044,  Average loss: 0.1250, Accuracy: 0.5203
+INFO:root:Epoch 35 Test set: LR: 0.00096864,  Average loss: 0.1214, Accuracy: 0.5198
+INFO:root:Epoch 36 Test set: LR: 0.00096679,  Average loss: 0.1258, Accuracy: 0.5250
+INFO:root:Epoch 37 Test set: LR: 0.00096489,  Average loss: 0.1271, Accuracy: 0.5261
+INFO:root:Epoch 38 Test set: LR: 0.00096294,  Average loss: 0.1249, Accuracy: 0.5186
+INFO:root:Epoch 39 Test set: LR: 0.00096093,  Average loss: 0.1214, Accuracy: 0.5322
+INFO:root:Epoch 40 Test set: LR: 0.00095888,  Average loss: 0.1190, Accuracy: 0.5477
+INFO:root:Epoch 41 Test set: LR: 0.00095677,  Average loss: 0.1213, Accuracy: 0.5376
+INFO:root:Epoch 42 Test set: LR: 0.00095462,  Average loss: 0.1166, Accuracy: 0.5454
+INFO:root:Epoch 43 Test set: LR: 0.00095241,  Average loss: 0.1245, Accuracy: 0.5519
+INFO:root:Epoch 44 Test set: LR: 0.00095016,  Average loss: 0.1297, Accuracy: 0.5456
+INFO:root:Epoch 45 Test set: LR: 0.00094786,  Average loss: 0.1648, Accuracy: 0.5323
+INFO:root:Epoch 46 Test set: LR: 0.00094550,  Average loss: 0.1120, Accuracy: 0.5667
+INFO:root:Epoch 47 Test set: LR: 0.00094310,  Average loss: 0.1339, Accuracy: 0.5569
+INFO:root:Epoch 48 Test set: LR: 0.00094065,  Average loss: 0.1088, Accuracy: 0.5661
+INFO:root:Epoch 49 Test set: LR: 0.00093815,  Average loss: 0.1291, Accuracy: 0.5687
+INFO:root:Epoch 50 Test set: LR: 0.00093561,  Average loss: 0.1205, Accuracy: 0.5646
+INFO:root:Epoch 51 Test set: LR: 0.00093301,  Average loss: 0.1247, Accuracy: 0.5693
+INFO:root:Epoch 52 Test set: LR: 0.00093301,  Average loss: 0.1146, Accuracy: 0.5877
+INFO:root:Epoch 53 Test set: LR: 0.00093301,  Average loss: 0.1085, Accuracy: 0.5812
+INFO:root:Epoch 54 Test set: LR: 0.00093037,  Average loss: 0.1020, Accuracy: 0.5873
+INFO:root:Epoch 55 Test set: LR: 0.00092768,  Average loss: 0.1184, Accuracy: 0.5793
+INFO:root:Epoch 56 Test set: LR: 0.00092495,  Average loss: 0.1135, Accuracy: 0.5850
+INFO:root:Epoch 57 Test set: LR: 0.00092216,  Average loss: 0.1238, Accuracy: 0.5840
+INFO:root:Epoch 58 Test set: LR: 0.00091934,  Average loss: 0.1256, Accuracy: 0.5846
+INFO:root:Epoch 59 Test set: LR: 0.00091646,  Average loss: 0.1140, Accuracy: 0.5882
+INFO:root:Epoch 60 Test set: LR: 0.00091646,  Average loss: 0.1067, Accuracy: 0.5954
+INFO:root:Epoch 61 Test set: LR: 0.00091646,  Average loss: 0.1129, Accuracy: 0.5920
+INFO:root:Epoch 62 Test set: LR: 0.00091354,  Average loss: 0.1359, Accuracy: 0.5911
+INFO:root:Epoch 63 Test set: LR: 0.00091057,  Average loss: 0.1050, Accuracy: 0.6002
+INFO:root:Epoch 64 Test set: LR: 0.00091057,  Average loss: 0.1186, Accuracy: 0.5866
+INFO:root:Epoch 65 Test set: LR: 0.00090756,  Average loss: 0.1167, Accuracy: 0.5969
+INFO:root:Epoch 66 Test set: LR: 0.00090451,  Average loss: 0.1138, Accuracy: 0.6036
+INFO:root:Epoch 67 Test set: LR: 0.00090451,  Average loss: 0.1192, Accuracy: 0.5915
+INFO:root:Epoch 68 Test set: LR: 0.00090141,  Average loss: 0.1070, Accuracy: 0.6050
+INFO:root:Epoch 69 Test set: LR: 0.00090141,  Average loss: 0.1072, Accuracy: 0.5979

@@ -1,0 +1,8 @@
+INFO:root:EMD: imagenet50_1000_50->tinydtd_45_50: 3.2256363789228888
+INFO:root:EMD: imagenet50_1000_50->tinycaltech256_45_50: 3.2516896545708085
+INFO:root:EMD: imagenet50_1000_50->tinyfood101_45_50: 2.5694569959205737
+INFO:root:EMD: imagenet50_1000_50->tinydomainnet_real_45_50: 3.2050946647718517
+INFO:root:EMD: tinydomainnet_real_40_300->tinydomainnet_sketch_40_10: 2.7447968137406993
+INFO:root:EMD: tinydomainnet_real_40_300->tinydomainnet_clipart_40_10: 4.1606279623094835
+INFO:root:EMD: tinydomainnet_real_40_300->tinydomainnet_infograph_40_10: 4.3234317944304692
+INFO:root:EMD: tinydomainnet_real_40_300->tinydomainnet_quickdraw_40_10: 1.0333540925414026

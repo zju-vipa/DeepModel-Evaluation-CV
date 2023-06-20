@@ -1,0 +1,52 @@
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'imagenet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'real', 'arch': 'resnet18', 'model_path': '', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/transfer_learning_sample_num/tinydomainnet_real', 'checkpoint_path': 'checkpoints/transfer_learning_sample_num/', 'checkpoint_save_step': 1, 'log_path': 'log/transfer_learning_sample_num/tinydomainnet_real/log1.log', 'end_epoch': 2}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'imagenet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'real', 'arch': 'resnet18', 'model_path': '', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/transfer_learning_sample_num/tinydomainnet_real', 'checkpoint_path': 'checkpoints/transfer_learning_sample_num/', 'checkpoint_save_step': 1, 'log_path': 'log/transfer_learning_sample_num/tinydomainnet_real/log1.log', 'end_epoch': 2}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'imagenet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'real', 'arch': 'resnet18', 'model_path': '', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/transfer_learning_sample_num/tinydomainnet_real', 'checkpoint_path': 'checkpoints/transfer_learning_sample_num/', 'checkpoint_save_step': 1, 'log_path': 'log/transfer_learning_sample_num/tinydomainnet_real/log1.log', 'end_epoch': 2}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'imagenet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'real', 'arch': 'resnet18', 'model_path': '', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/transfer_learning_sample_num/tinydomainnet_real', 'checkpoint_path': 'checkpoints/transfer_learning_sample_num/', 'checkpoint_save_step': 1, 'log_path': 'log/transfer_learning_sample_num/tinydomainnet_real/log1.log', 'end_epoch': 2}
+INFO:root:Sample_num: 1 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.2526, Accuracy: 0.0250
+INFO:root:Sample_num: 1 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.2469, Accuracy: 0.0287
+INFO:root:Sample_num: 5 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.2332, Accuracy: 0.0602
+INFO:root:Sample_num: 5 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.2093, Accuracy: 0.1623
+INFO:root:Sample_num: 10 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.2083, Accuracy: 0.1653
+INFO:root:Sample_num: 10 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.1627, Accuracy: 0.3725
+INFO:root:Sample_num: 20 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.1628, Accuracy: 0.3842
+INFO:root:Sample_num: 20 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.1140, Accuracy: 0.5600
+INFO:root:Sample_num: 50 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.1007, Accuracy: 0.6053
+INFO:root:Sample_num: 50 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.0790, Accuracy: 0.6724
+INFO:root:Sample_num: 80 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.0850, Accuracy: 0.6628
+INFO:root:Sample_num: 80 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.0774, Accuracy: 0.6953
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'imagenet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'real', 'arch': 'resnet18', 'model_path': '', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/transfer_learning_sample_num/tinydomainnet_real', 'checkpoint_path': 'checkpoints/transfer_learning_sample_num/', 'checkpoint_save_step': 1, 'log_path': 'log/transfer_learning_sample_num/tinydomainnet_real/log1.log', 'end_epoch': 5}
+INFO:root:Sample_num: 1 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.2526, Accuracy: 0.0250
+INFO:root:Sample_num: 1 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.2469, Accuracy: 0.0287
+INFO:root:Sample_num: 1 Epoch 3 Test set: LR: 0.00099997,  Average loss: 0.2402, Accuracy: 0.0409
+INFO:root:Sample_num: 1 Epoch 4 Test set: LR: 0.00099994,  Average loss: 0.2337, Accuracy: 0.0600
+INFO:root:Sample_num: 1 Epoch 5 Test set: LR: 0.00099989,  Average loss: 0.2268, Accuracy: 0.0898
+INFO:root:Sample_num: 5 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.2357, Accuracy: 0.0499
+INFO:root:Sample_num: 5 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.2104, Accuracy: 0.1558
+INFO:root:Sample_num: 5 Epoch 3 Test set: LR: 0.00099997,  Average loss: 0.1869, Accuracy: 0.2676
+INFO:root:Sample_num: 5 Epoch 4 Test set: LR: 0.00099994,  Average loss: 0.1673, Accuracy: 0.3595
+INFO:root:Sample_num: 5 Epoch 5 Test set: LR: 0.00099989,  Average loss: 0.1571, Accuracy: 0.3935
+INFO:root:Sample_num: 10 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.2151, Accuracy: 0.1317
+INFO:root:Sample_num: 10 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.1680, Accuracy: 0.3517
+INFO:root:Sample_num: 10 Epoch 3 Test set: LR: 0.00099997,  Average loss: 0.1376, Accuracy: 0.4738
+INFO:root:Sample_num: 10 Epoch 4 Test set: LR: 0.00099994,  Average loss: 0.1166, Accuracy: 0.5392
+INFO:root:Sample_num: 10 Epoch 5 Test set: LR: 0.00099989,  Average loss: 0.1071, Accuracy: 0.5736
+INFO:root:Sample_num: 20 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.1667, Accuracy: 0.3674
+INFO:root:Sample_num: 20 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.1139, Accuracy: 0.5640
+INFO:root:Sample_num: 20 Epoch 3 Test set: LR: 0.00099997,  Average loss: 0.0962, Accuracy: 0.6149
+INFO:root:Sample_num: 20 Epoch 4 Test set: LR: 0.00099994,  Average loss: 0.0888, Accuracy: 0.6342
+INFO:root:Sample_num: 20 Epoch 5 Test set: LR: 0.00099989,  Average loss: 0.0859, Accuracy: 0.6518
+INFO:root:Sample_num: 50 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.1013, Accuracy: 0.5988
+INFO:root:Sample_num: 50 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.0821, Accuracy: 0.6615
+INFO:root:Sample_num: 50 Epoch 3 Test set: LR: 0.00099997,  Average loss: 0.0800, Accuracy: 0.6846
+INFO:root:Sample_num: 50 Epoch 4 Test set: LR: 0.00099994,  Average loss: 0.0759, Accuracy: 0.6930
+INFO:root:Sample_num: 50 Epoch 5 Test set: LR: 0.00099989,  Average loss: 0.0789, Accuracy: 0.6890
+INFO:root:Sample_num: 80 Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.0838, Accuracy: 0.6651
+INFO:root:Sample_num: 80 Epoch 2 Test set: LR: 0.00099999,  Average loss: 0.0782, Accuracy: 0.6932
+INFO:root:Sample_num: 80 Epoch 3 Test set: LR: 0.00099997,  Average loss: 0.0794, Accuracy: 0.6942
+INFO:root:Sample_num: 80 Epoch 4 Test set: LR: 0.00099994,  Average loss: 0.0753, Accuracy: 0.7122
+INFO:root:Sample_num: 80 Epoch 5 Test set: LR: 0.00099989,  Average loss: 0.0758, Accuracy: 0.7177

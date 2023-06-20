@@ -1,0 +1,302 @@
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'imagenet', 'target_dataset': 'caltech256', 'domain_label': 'real', 'arch': 'densenet161', 'model_path': '', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.01, 'lr_factor': 0.2, 'bs': 32, 'momentum': 0.9, 'lr_step': 10, 'tensorboard_path': './runs/imagenet_caltech256/densenet161', 'checkpoint_path': './checkpoints/imagenet_caltech256/densenet161', 'checkpoint_save_step': 5, 'log_path': './log/densenet161/imagenet_caltech256/log1.log', 'end_epoch': 180}
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.0784, Accuracy: 0.4667
+INFO:root:Test set: LR: 0.00999924,  Average loss: 0.0644, Accuracy: 0.5447
+INFO:root:Test set: LR: 0.00999695,  Average loss: 0.0614, Accuracy: 0.5661
+INFO:root:Test set: LR: 0.00999315,  Average loss: 0.0551, Accuracy: 0.6111
+INFO:root:Test set: LR: 0.00998782,  Average loss: 0.0498, Accuracy: 0.6382
+INFO:root:Test set: LR: 0.00998097,  Average loss: 0.0519, Accuracy: 0.6319
+INFO:root:Test set: LR: 0.00997261,  Average loss: 0.0473, Accuracy: 0.6470
+INFO:root:Test set: LR: 0.00996273,  Average loss: 0.0488, Accuracy: 0.6513
+INFO:root:Test set: LR: 0.00995134,  Average loss: 0.0475, Accuracy: 0.6595
+INFO:root:Test set: LR: 0.00993844,  Average loss: 0.0445, Accuracy: 0.6729
+INFO:root:Test set: LR: 0.00992404,  Average loss: 0.0483, Accuracy: 0.6495
+INFO:root:Test set: LR: 0.00990814,  Average loss: 0.0446, Accuracy: 0.6726
+INFO:root:Test set: LR: 0.00989074,  Average loss: 0.0442, Accuracy: 0.6811
+INFO:root:Test set: LR: 0.00987185,  Average loss: 0.0433, Accuracy: 0.6824
+INFO:root:Test set: LR: 0.00985148,  Average loss: 0.0438, Accuracy: 0.6791
+INFO:root:Test set: LR: 0.00982963,  Average loss: 0.0454, Accuracy: 0.6723
+INFO:root:Test set: LR: 0.00980631,  Average loss: 0.0435, Accuracy: 0.6862
+INFO:root:Test set: LR: 0.00978152,  Average loss: 0.0459, Accuracy: 0.6651
+INFO:root:Test set: LR: 0.00975528,  Average loss: 0.0432, Accuracy: 0.6933
+INFO:root:Test set: LR: 0.00972759,  Average loss: 0.0449, Accuracy: 0.6753
+INFO:root:Test set: LR: 0.00969846,  Average loss: 0.0442, Accuracy: 0.6788
+INFO:root:Test set: LR: 0.00966790,  Average loss: 0.0440, Accuracy: 0.6794
+INFO:root:Test set: LR: 0.00963592,  Average loss: 0.0452, Accuracy: 0.6753
+INFO:root:Test set: LR: 0.00960252,  Average loss: 0.0447, Accuracy: 0.6768
+INFO:root:Test set: LR: 0.00956773,  Average loss: 0.0444, Accuracy: 0.6816
+INFO:root:Test set: LR: 0.00953154,  Average loss: 0.0440, Accuracy: 0.6834
+INFO:root:Test set: LR: 0.00949397,  Average loss: 0.0464, Accuracy: 0.6725
+INFO:root:Test set: LR: 0.00945503,  Average loss: 0.0456, Accuracy: 0.6743
+INFO:root:Test set: LR: 0.00941474,  Average loss: 0.0449, Accuracy: 0.6814
+INFO:root:Test set: LR: 0.00937310,  Average loss: 0.0435, Accuracy: 0.6864
+INFO:root:Test set: LR: 0.00933013,  Average loss: 0.0445, Accuracy: 0.6844
+INFO:root:Test set: LR: 0.00928584,  Average loss: 0.0458, Accuracy: 0.6782
+INFO:root:Test set: LR: 0.00924024,  Average loss: 0.0435, Accuracy: 0.6882
+INFO:root:Test set: LR: 0.00919335,  Average loss: 0.0458, Accuracy: 0.6717
+INFO:root:Test set: LR: 0.00914519,  Average loss: 0.0450, Accuracy: 0.6827
+INFO:root:Test set: LR: 0.00909576,  Average loss: 0.0443, Accuracy: 0.6845
+INFO:root:Test set: LR: 0.00904508,  Average loss: 0.0435, Accuracy: 0.6929
+INFO:root:Test set: LR: 0.00899318,  Average loss: 0.0459, Accuracy: 0.6817
+INFO:root:Test set: LR: 0.00894005,  Average loss: 0.0443, Accuracy: 0.6844
+INFO:root:Test set: LR: 0.00888573,  Average loss: 0.0460, Accuracy: 0.6723
+INFO:root:Test set: LR: 0.00883022,  Average loss: 0.0453, Accuracy: 0.6774
+INFO:root:Test set: LR: 0.00877355,  Average loss: 0.0470, Accuracy: 0.6749
+INFO:root:Test set: LR: 0.00871572,  Average loss: 0.0437, Accuracy: 0.6861
+INFO:root:Test set: LR: 0.00865677,  Average loss: 0.0451, Accuracy: 0.6850
+INFO:root:Test set: LR: 0.00859670,  Average loss: 0.0465, Accuracy: 0.6799
+INFO:root:Test set: LR: 0.00853553,  Average loss: 0.0458, Accuracy: 0.6836
+INFO:root:Test set: LR: 0.00847329,  Average loss: 0.0439, Accuracy: 0.6908
+INFO:root:Test set: LR: 0.00840999,  Average loss: 0.0461, Accuracy: 0.6714
+INFO:root:Test set: LR: 0.00834565,  Average loss: 0.0474, Accuracy: 0.6648
+INFO:root:Test set: LR: 0.00828030,  Average loss: 0.0452, Accuracy: 0.6820
+INFO:root:Test set: LR: 0.00821394,  Average loss: 0.0443, Accuracy: 0.6870
+INFO:root:Test set: LR: 0.00821394,  Average loss: 0.0456, Accuracy: 0.6862
+INFO:root:Test set: LR: 0.00814660,  Average loss: 0.0467, Accuracy: 0.6739
+INFO:root:Test set: LR: 0.00807831,  Average loss: 0.0468, Accuracy: 0.6783
+INFO:root:Test set: LR: 0.00800908,  Average loss: 0.0438, Accuracy: 0.6929
+INFO:root:Test set: LR: 0.00800908,  Average loss: 0.0445, Accuracy: 0.6868
+INFO:root:Test set: LR: 0.00793893,  Average loss: 0.0466, Accuracy: 0.6709
+INFO:root:Test set: LR: 0.00786788,  Average loss: 0.0468, Accuracy: 0.6834
+INFO:root:Test set: LR: 0.00779596,  Average loss: 0.0449, Accuracy: 0.6864
+INFO:root:Test set: LR: 0.00772320,  Average loss: 0.0463, Accuracy: 0.6817
+INFO:root:Test set: LR: 0.00764960,  Average loss: 0.0445, Accuracy: 0.6868
+INFO:root:Test set: LR: 0.00757519,  Average loss: 0.0454, Accuracy: 0.6799
+INFO:root:Test set: LR: 0.00750000,  Average loss: 0.0464, Accuracy: 0.6851
+INFO:root:Test set: LR: 0.00742405,  Average loss: 0.0464, Accuracy: 0.6790
+INFO:root:Test set: LR: 0.00734736,  Average loss: 0.0453, Accuracy: 0.6805
+INFO:root:Test set: LR: 0.00726995,  Average loss: 0.0465, Accuracy: 0.6714
+INFO:root:Test set: LR: 0.00719186,  Average loss: 0.0454, Accuracy: 0.6851
+INFO:root:Test set: LR: 0.00711309,  Average loss: 0.0444, Accuracy: 0.6936
+INFO:root:Test set: LR: 0.00711309,  Average loss: 0.0464, Accuracy: 0.6797
+INFO:root:Test set: LR: 0.00703368,  Average loss: 0.0455, Accuracy: 0.6811
+INFO:root:Test set: LR: 0.00695366,  Average loss: 0.0476, Accuracy: 0.6739
+INFO:root:Test set: LR: 0.00687303,  Average loss: 0.0440, Accuracy: 0.6902
+INFO:root:Test set: LR: 0.00679184,  Average loss: 0.0451, Accuracy: 0.6847
+INFO:root:Test set: LR: 0.00671010,  Average loss: 0.0461, Accuracy: 0.6861
+INFO:root:Test set: LR: 0.00662784,  Average loss: 0.0454, Accuracy: 0.6876
+INFO:root:Test set: LR: 0.00654508,  Average loss: 0.0470, Accuracy: 0.6777
+INFO:root:Test set: LR: 0.00646186,  Average loss: 0.0466, Accuracy: 0.6811
+INFO:root:Test set: LR: 0.00637819,  Average loss: 0.0456, Accuracy: 0.6833
+INFO:root:Test set: LR: 0.00629410,  Average loss: 0.0453, Accuracy: 0.6882
+INFO:root:Test set: LR: 0.00620961,  Average loss: 0.0501, Accuracy: 0.6591
+INFO:root:Test set: LR: 0.00612476,  Average loss: 0.0440, Accuracy: 0.6950
+INFO:root:Test set: LR: 0.00612476,  Average loss: 0.0456, Accuracy: 0.6875
+INFO:root:Test set: LR: 0.00603956,  Average loss: 0.0462, Accuracy: 0.6825
+INFO:root:Test set: LR: 0.00595404,  Average loss: 0.0441, Accuracy: 0.6907
+INFO:root:Test set: LR: 0.00586824,  Average loss: 0.0443, Accuracy: 0.6984
+INFO:root:Test set: LR: 0.00586824,  Average loss: 0.0441, Accuracy: 0.6949
+INFO:root:Test set: LR: 0.00578217,  Average loss: 0.0444, Accuracy: 0.6990
+INFO:root:Test set: LR: 0.00578217,  Average loss: 0.0436, Accuracy: 0.6975
+INFO:root:Test set: LR: 0.00569587,  Average loss: 0.0451, Accuracy: 0.6862
+INFO:root:Test set: LR: 0.00560935,  Average loss: 0.0449, Accuracy: 0.6908
+INFO:root:Test set: LR: 0.00552264,  Average loss: 0.0454, Accuracy: 0.6881
+INFO:root:Test set: LR: 0.00543578,  Average loss: 0.0463, Accuracy: 0.6824
+INFO:root:Test set: LR: 0.00534878,  Average loss: 0.0444, Accuracy: 0.6969
+INFO:root:Test set: LR: 0.00526168,  Average loss: 0.0455, Accuracy: 0.6895
+INFO:root:Test set: LR: 0.00517450,  Average loss: 0.0448, Accuracy: 0.6881
+INFO:root:Test set: LR: 0.00508726,  Average loss: 0.0444, Accuracy: 0.6936
+INFO:root:Test set: LR: 0.00500000,  Average loss: 0.0450, Accuracy: 0.6871
+INFO:root:Test set: LR: 0.00491274,  Average loss: 0.0428, Accuracy: 0.7037
+INFO:root:Test set: LR: 0.00491274,  Average loss: 0.0446, Accuracy: 0.6935
+INFO:root:Test set: LR: 0.00482550,  Average loss: 0.0450, Accuracy: 0.6946
+INFO:root:Test set: LR: 0.00473832,  Average loss: 0.0468, Accuracy: 0.6774
+INFO:root:Test set: LR: 0.00465122,  Average loss: 0.0444, Accuracy: 0.6966
+INFO:root:Test set: LR: 0.00456422,  Average loss: 0.0447, Accuracy: 0.6946
+INFO:root:Test set: LR: 0.00447736,  Average loss: 0.0436, Accuracy: 0.7003
+INFO:root:Test set: LR: 0.00439065,  Average loss: 0.0438, Accuracy: 0.6902
+INFO:root:Test set: LR: 0.00430413,  Average loss: 0.0431, Accuracy: 0.7083
+INFO:root:Test set: LR: 0.00430413,  Average loss: 0.0450, Accuracy: 0.6939
+INFO:root:Test set: LR: 0.00421783,  Average loss: 0.0441, Accuracy: 0.6967
+INFO:root:Test set: LR: 0.00413176,  Average loss: 0.0418, Accuracy: 0.7121
+INFO:root:Test set: LR: 0.00413176,  Average loss: 0.0444, Accuracy: 0.6946
+INFO:root:Test set: LR: 0.00404596,  Average loss: 0.0441, Accuracy: 0.6981
+INFO:root:Test set: LR: 0.00396044,  Average loss: 0.0440, Accuracy: 0.6973
+INFO:root:Test set: LR: 0.00387524,  Average loss: 0.0433, Accuracy: 0.6993
+INFO:root:Test set: LR: 0.00379039,  Average loss: 0.0434, Accuracy: 0.6969
+INFO:root:Test set: LR: 0.00370590,  Average loss: 0.0439, Accuracy: 0.6993
+INFO:root:Test set: LR: 0.00362181,  Average loss: 0.0423, Accuracy: 0.7072
+INFO:root:Test set: LR: 0.00353814,  Average loss: 0.0420, Accuracy: 0.7092
+INFO:root:Test set: LR: 0.00345492,  Average loss: 0.0429, Accuracy: 0.7032
+INFO:root:Test set: LR: 0.00337216,  Average loss: 0.0420, Accuracy: 0.7091
+INFO:root:Test set: LR: 0.00328990,  Average loss: 0.0422, Accuracy: 0.7134
+INFO:root:Test set: LR: 0.00328990,  Average loss: 0.0429, Accuracy: 0.7018
+INFO:root:Test set: LR: 0.00320816,  Average loss: 0.0416, Accuracy: 0.7142
+INFO:root:Test set: LR: 0.00320816,  Average loss: 0.0432, Accuracy: 0.7009
+INFO:root:Test set: LR: 0.00312697,  Average loss: 0.0431, Accuracy: 0.7050
+INFO:root:Test set: LR: 0.00304634,  Average loss: 0.0423, Accuracy: 0.7084
+INFO:root:Test set: LR: 0.00296632,  Average loss: 0.0414, Accuracy: 0.7143
+INFO:root:Test set: LR: 0.00296632,  Average loss: 0.0421, Accuracy: 0.7083
+INFO:root:Test set: LR: 0.00288691,  Average loss: 0.0420, Accuracy: 0.7098
+INFO:root:Test set: LR: 0.00280814,  Average loss: 0.0421, Accuracy: 0.7115
+INFO:root:Test set: LR: 0.00273005,  Average loss: 0.0422, Accuracy: 0.7100
+INFO:root:Test set: LR: 0.00265264,  Average loss: 0.0428, Accuracy: 0.7078
+INFO:root:Test set: LR: 0.00257595,  Average loss: 0.0415, Accuracy: 0.7112
+INFO:root:Test set: LR: 0.00250000,  Average loss: 0.0405, Accuracy: 0.7183
+INFO:root:Test set: LR: 0.00250000,  Average loss: 0.0418, Accuracy: 0.7135
+INFO:root:Test set: LR: 0.00242481,  Average loss: 0.0419, Accuracy: 0.7040
+INFO:root:Test set: LR: 0.00235040,  Average loss: 0.0411, Accuracy: 0.7081
+INFO:root:Test set: LR: 0.00227680,  Average loss: 0.0408, Accuracy: 0.7101
+INFO:root:Test set: LR: 0.00220404,  Average loss: 0.0417, Accuracy: 0.7112
+INFO:root:Test set: LR: 0.00213212,  Average loss: 0.0406, Accuracy: 0.7183
+INFO:root:Test set: LR: 0.00206107,  Average loss: 0.0404, Accuracy: 0.7206
+INFO:root:Test set: LR: 0.00206107,  Average loss: 0.0413, Accuracy: 0.7157
+INFO:root:Test set: LR: 0.00199092,  Average loss: 0.0403, Accuracy: 0.7202
+INFO:root:Test set: LR: 0.00192169,  Average loss: 0.0396, Accuracy: 0.7254
+INFO:root:Test set: LR: 0.00192169,  Average loss: 0.0399, Accuracy: 0.7225
+INFO:root:Test set: LR: 0.00185340,  Average loss: 0.0399, Accuracy: 0.7246
+INFO:root:Test set: LR: 0.00178606,  Average loss: 0.0402, Accuracy: 0.7172
+INFO:root:Test set: LR: 0.00171970,  Average loss: 0.0407, Accuracy: 0.7157
+INFO:root:Test set: LR: 0.00165435,  Average loss: 0.0409, Accuracy: 0.7151
+INFO:root:Test set: LR: 0.00159001,  Average loss: 0.0402, Accuracy: 0.7223
+INFO:root:Test set: LR: 0.00152671,  Average loss: 0.0400, Accuracy: 0.7191
+INFO:root:Test set: LR: 0.00146447,  Average loss: 0.0402, Accuracy: 0.7165
+INFO:root:Test set: LR: 0.00140330,  Average loss: 0.0395, Accuracy: 0.7253
+INFO:root:Test set: LR: 0.00134323,  Average loss: 0.0393, Accuracy: 0.7256
+INFO:root:Test set: LR: 0.00134323,  Average loss: 0.0410, Accuracy: 0.7222
+INFO:root:Test set: LR: 0.00128428,  Average loss: 0.0407, Accuracy: 0.7194
+INFO:root:Test set: LR: 0.00122645,  Average loss: 0.0411, Accuracy: 0.7165
+INFO:root:Test set: LR: 0.00116978,  Average loss: 0.0397, Accuracy: 0.7260
+INFO:root:Test set: LR: 0.00116978,  Average loss: 0.0400, Accuracy: 0.7233
+INFO:root:Test set: LR: 0.00111427,  Average loss: 0.0392, Accuracy: 0.7237
+INFO:root:Test set: LR: 0.00105995,  Average loss: 0.0394, Accuracy: 0.7284
+INFO:root:Test set: LR: 0.00105995,  Average loss: 0.0392, Accuracy: 0.7288
+INFO:root:Test set: LR: 0.00105995,  Average loss: 0.0392, Accuracy: 0.7282
+INFO:root:Test set: LR: 0.00100682,  Average loss: 0.0394, Accuracy: 0.7277
+INFO:root:Test set: LR: 0.00095492,  Average loss: 0.0388, Accuracy: 0.7290
+INFO:root:Test set: LR: 0.00095492,  Average loss: 0.0391, Accuracy: 0.7282
+INFO:root:Test set: LR: 0.00090424,  Average loss: 0.0385, Accuracy: 0.7319
+INFO:root:Test set: LR: 0.00090424,  Average loss: 0.0386, Accuracy: 0.7331
+INFO:root:Test set: LR: 0.00090424,  Average loss: 0.0392, Accuracy: 0.7280
+INFO:root:Test set: LR: 0.00085481,  Average loss: 0.0387, Accuracy: 0.7293
+INFO:root:Test set: LR: 0.00080665,  Average loss: 0.0391, Accuracy: 0.7288
+INFO:root:Test set: LR: 0.00075976,  Average loss: 0.0388, Accuracy: 0.7328
+INFO:root:Test set: LR: 0.00071416,  Average loss: 0.0392, Accuracy: 0.7273
+INFO:root:Test set: LR: 0.00066987,  Average loss: 0.0385, Accuracy: 0.7342
+INFO:root:Test set: LR: 0.00066987,  Average loss: 0.0386, Accuracy: 0.7321
+INFO:root:Test set: LR: 0.00062690,  Average loss: 0.0382, Accuracy: 0.7350
+INFO:root:Test set: LR: 0.00062690,  Average loss: 0.0384, Accuracy: 0.7372
+INFO:root:Test set: LR: 0.00062690,  Average loss: 0.0385, Accuracy: 0.7365
+INFO:root:Test set: LR: 0.00058526,  Average loss: 0.0386, Accuracy: 0.7316
+INFO:root:Test set: LR: 0.00054497,  Average loss: 0.0384, Accuracy: 0.7333
+INFO:root:Test set: LR: 0.00050603,  Average loss: 0.0385, Accuracy: 0.7342
+INFO:root:Epoch 181 Test set: LR: 0.00050000,  Average loss: 0.0387, Accuracy: 0.7317
+INFO:root:Epoch 182 Test set: LR: 0.00050000,  Average loss: 0.0383, Accuracy: 0.7353
+INFO:root:Epoch 183 Test set: LR: 0.00050000,  Average loss: 0.0382, Accuracy: 0.7355
+INFO:root:Epoch 184 Test set: LR: 0.00050000,  Average loss: 0.0384, Accuracy: 0.7344
+INFO:root:Epoch 185 Test set: LR: 0.00049991,  Average loss: 0.0386, Accuracy: 0.7313
+INFO:root:Epoch 186 Test set: LR: 0.00049966,  Average loss: 0.0382, Accuracy: 0.7373
+INFO:root:Epoch 187 Test set: LR: 0.00049966,  Average loss: 0.0383, Accuracy: 0.7353
+INFO:root:Epoch 188 Test set: LR: 0.00049923,  Average loss: 0.0378, Accuracy: 0.7399
+INFO:root:Epoch 189 Test set: LR: 0.00049923,  Average loss: 0.0377, Accuracy: 0.7390
+INFO:root:Epoch 190 Test set: LR: 0.00049863,  Average loss: 0.0379, Accuracy: 0.7334
+INFO:root:Epoch 191 Test set: LR: 0.00049786,  Average loss: 0.0387, Accuracy: 0.7294
+INFO:root:Epoch 192 Test set: LR: 0.00049692,  Average loss: 0.0384, Accuracy: 0.7344
+INFO:root:Epoch 193 Test set: LR: 0.00049581,  Average loss: 0.0384, Accuracy: 0.7342
+INFO:root:Epoch 194 Test set: LR: 0.00049454,  Average loss: 0.0385, Accuracy: 0.7351
+INFO:root:Epoch 195 Test set: LR: 0.00049309,  Average loss: 0.0384, Accuracy: 0.7351
+INFO:root:Epoch 196 Test set: LR: 0.00049148,  Average loss: 0.0385, Accuracy: 0.7348
+INFO:root:Epoch 197 Test set: LR: 0.00048970,  Average loss: 0.0390, Accuracy: 0.7296
+INFO:root:Epoch 198 Test set: LR: 0.00048776,  Average loss: 0.0392, Accuracy: 0.7308
+INFO:root:Epoch 199 Test set: LR: 0.00048566,  Average loss: 0.0385, Accuracy: 0.7324
+INFO:root:Epoch 200 Test set: LR: 0.00048340,  Average loss: 0.0381, Accuracy: 0.7362
+INFO:root:Epoch 201 Test set: LR: 0.00048097,  Average loss: 0.0389, Accuracy: 0.7294
+INFO:root:Epoch 202 Test set: LR: 0.00047839,  Average loss: 0.0386, Accuracy: 0.7338
+INFO:root:Epoch 203 Test set: LR: 0.00047565,  Average loss: 0.0387, Accuracy: 0.7336
+INFO:root:Epoch 204 Test set: LR: 0.00047275,  Average loss: 0.0387, Accuracy: 0.7325
+INFO:root:Epoch 205 Test set: LR: 0.00046970,  Average loss: 0.0381, Accuracy: 0.7350
+INFO:root:Epoch 206 Test set: LR: 0.00046651,  Average loss: 0.0384, Accuracy: 0.7336
+INFO:root:Epoch 207 Test set: LR: 0.00046316,  Average loss: 0.0386, Accuracy: 0.7313
+INFO:root:Epoch 208 Test set: LR: 0.00045967,  Average loss: 0.0381, Accuracy: 0.7379
+INFO:root:Epoch 209 Test set: LR: 0.00045603,  Average loss: 0.0386, Accuracy: 0.7373
+INFO:root:Epoch 210 Test set: LR: 0.00045225,  Average loss: 0.0384, Accuracy: 0.7353
+INFO:root:Epoch 211 Test set: LR: 0.00044834,  Average loss: 0.0381, Accuracy: 0.7365
+INFO:root:Epoch 212 Test set: LR: 0.00044429,  Average loss: 0.0381, Accuracy: 0.7356
+INFO:root:Epoch 213 Test set: LR: 0.00044010,  Average loss: 0.0385, Accuracy: 0.7322
+INFO:root:Epoch 214 Test set: LR: 0.00043579,  Average loss: 0.0388, Accuracy: 0.7304
+INFO:root:Epoch 215 Test set: LR: 0.00043134,  Average loss: 0.0378, Accuracy: 0.7399
+INFO:root:Epoch 216 Test set: LR: 0.00042678,  Average loss: 0.0380, Accuracy: 0.7395
+INFO:root:Epoch 217 Test set: LR: 0.00042209,  Average loss: 0.0379, Accuracy: 0.7358
+INFO:root:Epoch 218 Test set: LR: 0.00041728,  Average loss: 0.0380, Accuracy: 0.7364
+INFO:root:Epoch 219 Test set: LR: 0.00041236,  Average loss: 0.0380, Accuracy: 0.7338
+INFO:root:Epoch 220 Test set: LR: 0.00040733,  Average loss: 0.0380, Accuracy: 0.7351
+INFO:root:Epoch 221 Test set: LR: 0.00040219,  Average loss: 0.0380, Accuracy: 0.7339
+INFO:root:Epoch 222 Test set: LR: 0.00039695,  Average loss: 0.0378, Accuracy: 0.7364
+INFO:root:Epoch 223 Test set: LR: 0.00039160,  Average loss: 0.0379, Accuracy: 0.7385
+INFO:root:Epoch 224 Test set: LR: 0.00038616,  Average loss: 0.0384, Accuracy: 0.7347
+INFO:root:Epoch 225 Test set: LR: 0.00038062,  Average loss: 0.0383, Accuracy: 0.7365
+INFO:root:Epoch 226 Test set: LR: 0.00037500,  Average loss: 0.0380, Accuracy: 0.7405
+INFO:root:Epoch 227 Test set: LR: 0.00037500,  Average loss: 0.0384, Accuracy: 0.7327
+INFO:root:Epoch 228 Test set: LR: 0.00036929,  Average loss: 0.0379, Accuracy: 0.7390
+INFO:root:Epoch 229 Test set: LR: 0.00036350,  Average loss: 0.0386, Accuracy: 0.7328
+INFO:root:Epoch 230 Test set: LR: 0.00035763,  Average loss: 0.0381, Accuracy: 0.7367
+INFO:root:Epoch 231 Test set: LR: 0.00035168,  Average loss: 0.0383, Accuracy: 0.7347
+INFO:root:Epoch 232 Test set: LR: 0.00034567,  Average loss: 0.0378, Accuracy: 0.7350
+INFO:root:Epoch 233 Test set: LR: 0.00033959,  Average loss: 0.0379, Accuracy: 0.7376
+INFO:root:Epoch 234 Test set: LR: 0.00033345,  Average loss: 0.0379, Accuracy: 0.7327
+INFO:root:Epoch 235 Test set: LR: 0.00032725,  Average loss: 0.0382, Accuracy: 0.7375
+INFO:root:Epoch 236 Test set: LR: 0.00032100,  Average loss: 0.0386, Accuracy: 0.7331
+INFO:root:Epoch 237 Test set: LR: 0.00031470,  Average loss: 0.0385, Accuracy: 0.7355
+INFO:root:Epoch 238 Test set: LR: 0.00030836,  Average loss: 0.0381, Accuracy: 0.7364
+INFO:root:Epoch 239 Test set: LR: 0.00030198,  Average loss: 0.0379, Accuracy: 0.7392
+INFO:root:Epoch 240 Test set: LR: 0.00029556,  Average loss: 0.0377, Accuracy: 0.7401
+INFO:root:Epoch 241 Test set: LR: 0.00028911,  Average loss: 0.0380, Accuracy: 0.7356
+INFO:root:Epoch 242 Test set: LR: 0.00028263,  Average loss: 0.0380, Accuracy: 0.7356
+INFO:root:Epoch 243 Test set: LR: 0.00027613,  Average loss: 0.0378, Accuracy: 0.7399
+INFO:root:Epoch 244 Test set: LR: 0.00026961,  Average loss: 0.0380, Accuracy: 0.7385
+INFO:root:Epoch 245 Test set: LR: 0.00026308,  Average loss: 0.0378, Accuracy: 0.7384
+INFO:root:Epoch 246 Test set: LR: 0.00025654,  Average loss: 0.0377, Accuracy: 0.7372
+INFO:root:Epoch 247 Test set: LR: 0.00025000,  Average loss: 0.0379, Accuracy: 0.7402
+INFO:root:Epoch 248 Test set: LR: 0.00024346,  Average loss: 0.0379, Accuracy: 0.7412
+INFO:root:Epoch 249 Test set: LR: 0.00024346,  Average loss: 0.0381, Accuracy: 0.7415
+INFO:root:Epoch 250 Test set: LR: 0.00024346,  Average loss: 0.0378, Accuracy: 0.7410
+INFO:root:Epoch 251 Test set: LR: 0.00023692,  Average loss: 0.0378, Accuracy: 0.7418
+INFO:root:Epoch 252 Test set: LR: 0.00023692,  Average loss: 0.0376, Accuracy: 0.7426
+INFO:root:Epoch 253 Test set: LR: 0.00023692,  Average loss: 0.0380, Accuracy: 0.7398
+INFO:root:Epoch 254 Test set: LR: 0.00023039,  Average loss: 0.0377, Accuracy: 0.7412
+INFO:root:Epoch 255 Test set: LR: 0.00022387,  Average loss: 0.0378, Accuracy: 0.7387
+INFO:root:Epoch 256 Test set: LR: 0.00021737,  Average loss: 0.0379, Accuracy: 0.7412
+INFO:root:Epoch 257 Test set: LR: 0.00021089,  Average loss: 0.0375, Accuracy: 0.7424
+INFO:root:Epoch 258 Test set: LR: 0.00020444,  Average loss: 0.0379, Accuracy: 0.7398
+INFO:root:Epoch 259 Test set: LR: 0.00019802,  Average loss: 0.0379, Accuracy: 0.7373
+INFO:root:Epoch 260 Test set: LR: 0.00019164,  Average loss: 0.0378, Accuracy: 0.7355
+INFO:root:Epoch 261 Test set: LR: 0.00018530,  Average loss: 0.0381, Accuracy: 0.7375
+INFO:root:Epoch 262 Test set: LR: 0.00017900,  Average loss: 0.0379, Accuracy: 0.7378
+INFO:root:Epoch 263 Test set: LR: 0.00017275,  Average loss: 0.0381, Accuracy: 0.7313
+INFO:root:Epoch 264 Test set: LR: 0.00016655,  Average loss: 0.0382, Accuracy: 0.7350
+INFO:root:Epoch 265 Test set: LR: 0.00016041,  Average loss: 0.0381, Accuracy: 0.7373
+INFO:root:Epoch 266 Test set: LR: 0.00015433,  Average loss: 0.0382, Accuracy: 0.7368
+INFO:root:Epoch 267 Test set: LR: 0.00014832,  Average loss: 0.0380, Accuracy: 0.7379
+INFO:root:Epoch 268 Test set: LR: 0.00014237,  Average loss: 0.0377, Accuracy: 0.7392
+INFO:root:Epoch 269 Test set: LR: 0.00013650,  Average loss: 0.0376, Accuracy: 0.7362
+INFO:root:Epoch 270 Test set: LR: 0.00013071,  Average loss: 0.0383, Accuracy: 0.7365
+INFO:root:Epoch 271 Test set: LR: 0.00012500,  Average loss: 0.0380, Accuracy: 0.7373
+INFO:root:Epoch 272 Test set: LR: 0.00011938,  Average loss: 0.0384, Accuracy: 0.7359
+INFO:root:Epoch 273 Test set: LR: 0.00011384,  Average loss: 0.0379, Accuracy: 0.7384
+INFO:root:Epoch 274 Test set: LR: 0.00010840,  Average loss: 0.0383, Accuracy: 0.7359
+INFO:root:Epoch 275 Test set: LR: 0.00010305,  Average loss: 0.0381, Accuracy: 0.7350
+INFO:root:Epoch 276 Test set: LR: 0.00009781,  Average loss: 0.0378, Accuracy: 0.7355
+INFO:root:Epoch 277 Test set: LR: 0.00009267,  Average loss: 0.0380, Accuracy: 0.7370
+INFO:root:Epoch 278 Test set: LR: 0.00008764,  Average loss: 0.0377, Accuracy: 0.7364
+INFO:root:Epoch 279 Test set: LR: 0.00008272,  Average loss: 0.0380, Accuracy: 0.7379
+INFO:root:Epoch 280 Test set: LR: 0.00007791,  Average loss: 0.0377, Accuracy: 0.7378
+INFO:root:Epoch 281 Test set: LR: 0.00007322,  Average loss: 0.0377, Accuracy: 0.7375
+INFO:root:Epoch 282 Test set: LR: 0.00006866,  Average loss: 0.0377, Accuracy: 0.7378
+INFO:root:Epoch 283 Test set: LR: 0.00006421,  Average loss: 0.0378, Accuracy: 0.7370
+INFO:root:Epoch 284 Test set: LR: 0.00005990,  Average loss: 0.0380, Accuracy: 0.7364
+INFO:root:Epoch 285 Test set: LR: 0.00005571,  Average loss: 0.0380, Accuracy: 0.7365
+INFO:root:Epoch 286 Test set: LR: 0.00005166,  Average loss: 0.0377, Accuracy: 0.7381
+INFO:root:Epoch 287 Test set: LR: 0.00004775,  Average loss: 0.0381, Accuracy: 0.7384
+INFO:root:Epoch 288 Test set: LR: 0.00004397,  Average loss: 0.0379, Accuracy: 0.7376
+INFO:root:Epoch 289 Test set: LR: 0.00004033,  Average loss: 0.0376, Accuracy: 0.7385
+INFO:root:Epoch 290 Test set: LR: 0.00003684,  Average loss: 0.0374, Accuracy: 0.7381
+INFO:root:Epoch 291 Test set: LR: 0.00003349,  Average loss: 0.0378, Accuracy: 0.7364
+INFO:root:Epoch 292 Test set: LR: 0.00003030,  Average loss: 0.0380, Accuracy: 0.7375
+INFO:root:Epoch 293 Test set: LR: 0.00002725,  Average loss: 0.0380, Accuracy: 0.7338
+INFO:root:Epoch 294 Test set: LR: 0.00002435,  Average loss: 0.0380, Accuracy: 0.7359
+INFO:root:Epoch 295 Test set: LR: 0.00002161,  Average loss: 0.0379, Accuracy: 0.7375
+INFO:root:Epoch 296 Test set: LR: 0.00001903,  Average loss: 0.0380, Accuracy: 0.7367
+INFO:root:Epoch 297 Test set: LR: 0.00001660,  Average loss: 0.0379, Accuracy: 0.7379
+INFO:root:Epoch 298 Test set: LR: 0.00001434,  Average loss: 0.0381, Accuracy: 0.7345
+INFO:root:Epoch 299 Test set: LR: 0.00001224,  Average loss: 0.0377, Accuracy: 0.7375
+INFO:root:Epoch 300 Test set: LR: 0.00001030,  Average loss: 0.0377, Accuracy: 0.7390

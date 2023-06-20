@@ -1,0 +1,24 @@
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'infograph', 'arch': 'mobilenet_v3_small', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/domainnet/real/mobilenet_v3_small/2023-05-03T17:48:31.490878/mobilenet_v3_small-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_infograph_40_10/mobilenet_v3_small', 'checkpoint_path': 'checkpoints/GT/real_infograph_40_10/mobilenet_v3_small', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_infograph_40_10/mobilenet_v3_small/log1.log', 'end_epoch': 20}
+INFO:root:Description: 迁移学习日志，参数如下
+INFO:root:{'source_dataset': 'tinydomainnet', 'target_dataset': 'tinydomainnet', 'source_domain_label': 'real', 'target_domain_label': 'infograph', 'arch': 'mobilenet_v3_small', 'model_path': '/nfs4-p1/wjx/transferbility/experiment/checkpoints/domainnet/real/mobilenet_v3_small/2023-05-03T17:48:31.490878/mobilenet_v3_small-300-regular.pth', 'resume': False, 'weight_decay': 0.0005, 'lr': 0.001, 'bs': 16, 'momentum': 0.9, 'tensorboard_path': 'runs/GT/real_infograph_40_10/mobilenet_v3_small', 'checkpoint_path': 'checkpoints/GT/real_infograph_40_10/mobilenet_v3_small', 'checkpoint_save_step': 1, 'log_path': 'log/GT/real_infograph_40_10/mobilenet_v3_small/log1.log', 'end_epoch': 20}
+INFO:root:Epoch 1 Test set: LR: 0.00100000,  Average loss: 0.2314, Accuracy: 0.0533
+INFO:root:Epoch 2 Test set: LR: 0.00099384,  Average loss: 0.2307, Accuracy: 0.0597
+INFO:root:Epoch 3 Test set: LR: 0.00097553,  Average loss: 0.2297, Accuracy: 0.0904
+INFO:root:Epoch 4 Test set: LR: 0.00094550,  Average loss: 0.2287, Accuracy: 0.1130
+INFO:root:Epoch 5 Test set: LR: 0.00090451,  Average loss: 0.2278, Accuracy: 0.1203
+INFO:root:Epoch 6 Test set: LR: 0.00085355,  Average loss: 0.2269, Accuracy: 0.1266
+INFO:root:Epoch 7 Test set: LR: 0.00079389,  Average loss: 0.2259, Accuracy: 0.1392
+INFO:root:Epoch 8 Test set: LR: 0.00072700,  Average loss: 0.2250, Accuracy: 0.1501
+INFO:root:Epoch 9 Test set: LR: 0.00065451,  Average loss: 0.2242, Accuracy: 0.1564
+INFO:root:Epoch 10 Test set: LR: 0.00057822,  Average loss: 0.2235, Accuracy: 0.1528
+INFO:root:Epoch 11 Test set: LR: 0.00050000,  Average loss: 0.2229, Accuracy: 0.1546
+INFO:root:Epoch 12 Test set: LR: 0.00042178,  Average loss: 0.2224, Accuracy: 0.1555
+INFO:root:Epoch 13 Test set: LR: 0.00034549,  Average loss: 0.2218, Accuracy: 0.1600
+INFO:root:Epoch 14 Test set: LR: 0.00027300,  Average loss: 0.2215, Accuracy: 0.1618
+INFO:root:Epoch 15 Test set: LR: 0.00020611,  Average loss: 0.2213, Accuracy: 0.1646
+INFO:root:Epoch 16 Test set: LR: 0.00014645,  Average loss: 0.2212, Accuracy: 0.1618
+INFO:root:Epoch 17 Test set: LR: 0.00009549,  Average loss: 0.2210, Accuracy: 0.1627
+INFO:root:Epoch 18 Test set: LR: 0.00005450,  Average loss: 0.2210, Accuracy: 0.1573
+INFO:root:Epoch 19 Test set: LR: 0.00002447,  Average loss: 0.2210, Accuracy: 0.1618
+INFO:root:Epoch 20 Test set: LR: 0.00000616,  Average loss: 0.2208, Accuracy: 0.1646

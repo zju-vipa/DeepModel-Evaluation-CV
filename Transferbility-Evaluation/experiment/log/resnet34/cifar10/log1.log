@@ -1,0 +1,16 @@
+INFO:root:Description: 预训练日志，参数如下
+INFO:root:{'source_dataset': 'cifar10', 'arch': 'resnet34', 'domain_label': 'real', 'lr': 0.01, 'lr_factor': 0.2, 'bs': 16, 'lr_step': 30, 'momentum': 0.9, 'weight_decay': 0.0005, 'tensorboard_path': './runs/cifar10/resnet34', 'checkpoint_path': './checkpoints/cifar10/resnet34', 'checkpoint_save_step': 5, 'log_path': './log/resnet34/cifar10/log1.log', 'end_epoch': 300}
+INFO:root:Description: 预训练日志，参数如下
+INFO:root:{'source_dataset': 'cifar10', 'arch': 'resnet34', 'domain_label': 'real', 'lr': 0.01, 'lr_factor': 0.2, 'bs': 16, 'lr_step': 30, 'momentum': 0.9, 'weight_decay': 0.0005, 'tensorboard_path': './runs/cifar10/resnet34', 'checkpoint_path': './checkpoints/cifar10/resnet34', 'checkpoint_save_step': 5, 'log_path': './log/resnet34/cifar10/log1.log', 'end_epoch': 300}
+INFO:root:Description: 预训练日志，参数如下
+INFO:root:{'source_dataset': 'cifar10', 'arch': 'resnet34', 'domain_label': 'real', 'lr': 0.01, 'lr_factor': 0.2, 'bs': 16, 'lr_step': 30, 'momentum': 0.9, 'weight_decay': 0.0005, 'tensorboard_path': './runs/cifar10/resnet34', 'checkpoint_path': './checkpoints/cifar10/resnet34', 'checkpoint_save_step': 5, 'log_path': './log/resnet34/cifar10/log1.log', 'end_epoch': 300}
+INFO:root:Description: 预训练日志，参数如下
+INFO:root:{'source_dataset': 'cifar10', 'arch': 'resnet34', 'domain_label': 'real', 'lr': 0.01, 'lr_factor': 0.2, 'bs': 16, 'lr_step': 40, 'momentum': 0.9, 'weight_decay': 0.0005, 'tensorboard_path': './runs/cifar10/resnet34', 'checkpoint_path': './checkpoints/cifar10/resnet34', 'checkpoint_save_step': 5, 'log_path': './log/resnet34/cifar10/log1.log', 'end_epoch': 300}
+INFO:root:Description: 预训练日志，参数如下
+INFO:root:{'source_dataset': 'cifar10', 'arch': 'resnet34', 'domain_label': 'real', 'lr': 0.01, 'lr_factor': 0.2, 'bs': 16, 'lr_step': 40, 'momentum': 0.9, 'weight_decay': 0.0005, 'tensorboard_path': './runs/cifar10/resnet34', 'checkpoint_path': './checkpoints/cifar10/resnet34', 'checkpoint_save_step': 5, 'log_path': './log/resnet34/cifar10/log1.log', 'end_epoch': 300}
+INFO:root:Test set: LR: 0.01000000,  Average loss: 0.0921, Accuracy: 0.4959
+INFO:root:Test set: LR: 0.00999973,  Average loss: 0.0633, Accuracy: 0.6454
+INFO:root:Test set: LR: 0.00999890,  Average loss: 0.0562, Accuracy: 0.6896
+INFO:root:Test set: LR: 0.00999753,  Average loss: 0.0461, Accuracy: 0.7464
+INFO:root:Test set: LR: 0.00999561,  Average loss: 0.0404, Accuracy: 0.7793
+INFO:root:Test set: LR: 0.00999315,  Average loss: 0.0363, Accuracy: 0.8031

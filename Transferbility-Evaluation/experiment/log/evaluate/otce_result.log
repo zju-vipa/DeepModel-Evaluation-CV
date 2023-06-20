@@ -1,0 +1,5 @@
+INFO:root:OTCE: domainnet real->infograph vgg16: 25.4535400202207320
+INFO:root:OTCE: domainnet real->infograph resnet50: 55.7779823915033504
+INFO:root:OTCE: domainnet real->infograph mobilenet_v3_small: 25.8096298889619682
+INFO:root:OTCE: domainnet real->quickdraw vgg16: 32.7332984702811203
+INFO:root:OTCE: domainnet real->quickdraw resnet50: 80.5890563696933526
