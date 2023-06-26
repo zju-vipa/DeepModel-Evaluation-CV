@@ -6,10 +6,9 @@ import argparse
 import torch
 
 import sys
-sys.path.append('../EvalBox/Classification/')
+sys.path.append("../Dataset/Classification")
 
-from EBD import EBD
-from NS import NS
+from imagenetc import ImageNetC
 
 
 
@@ -41,8 +40,6 @@ def main(args):
     )
 
 
-    ns = EBD(model=model, device=device, platform=platform)
-    ns.apply(eval_loader=test_loader)
 
 
 
