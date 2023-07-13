@@ -55,8 +55,13 @@ def main(args):
             labels = labels.to(device)
             outputs = model(images)
             # print(outputs.shape)
-            _, predicted = torch.max(outputs.data, 1)
+            if platform == 'torchvision':
+                _, predicted = torch.max(outputs.data, 1)
             # print(predicted)
+
+            if platform == 'huggingface':
+                predicted = torch.argmax(outputs.logits, 1)
+
             total += labels.size(0)
 
             # is_correct_list = (predicted == labels).to_list()

@@ -3,7 +3,7 @@
 import torch
 import torchvision.models as models
 import torchvision.transforms as transforms
-# import transformers
+import transformers
 
 
 class model_fetcher:
@@ -100,32 +100,37 @@ class model_fetcher:
                 "model": models.vit_b_16,
                 "weights": models.ViT_B_16_Weights.IMAGENET1K_V1
             },
-            # "deit": {
-            #     "platform": "huggingface",
-            #     "model": transformers.DeiTForImageClassification,
-            #     "config": transformers.DeiTConfig(),
-            #     "transform": transforms.Compose([
-            #         transforms.ToTensor(),
-            #         transforms.Resize(
-            #             256, transforms.InterpolationMode.BICUBIC),
-            #         transforms.CenterCrop(224),
-            #         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[
-            #                              0.485, 0.456, 0.406]),
-            #     ])
-            # },
-            # "swin": {
-            #     "platform": "huggingface",
-            #     "model": transformers.SwinForImageClassification,
-            #     "config": transformers.SwinConfig(),
-            #     "transform": transforms.Compose([
-            #         transforms.ToTensor(),
-            #         transforms.Resize(
-            #             256, transforms.InterpolationMode.BICUBIC),
-            #         transforms.CenterCrop(224),
-            #         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[
-            #                              0.485, 0.456, 0.406]),
-            #     ])
-            # }
+            "convnext_t": {
+                "platform": 'torchvision',
+                "model": models.convnext_tiny,
+                "weights": models.ConvNeXt_Tiny_Weights.IMAGENET1K_V1
+            },
+            "deit": {
+                "platform": "huggingface",
+                "model": transformers.DeiTForImageClassification,
+                "config": transformers.DeiTConfig(),
+                "transform": transforms.Compose([
+                    transforms.ToTensor(),
+                    transforms.Resize(
+                        256, transforms.InterpolationMode.BICUBIC),
+                    transforms.CenterCrop(224),
+                    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[
+                                         0.485, 0.456, 0.406]),
+                ])
+            },
+            "swin": {
+                "platform": "huggingface",
+                "model": transformers.SwinForImageClassification,
+                "config": transformers.SwinConfig(),
+                "transform": transforms.Compose([
+                    transforms.ToTensor(),
+                    transforms.Resize(
+                        256, transforms.InterpolationMode.BICUBIC),
+                    transforms.CenterCrop(224),
+                    transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[
+                                         0.485, 0.456, 0.406]),
+                ])
+            }
         }
 
     def get(self, model_name):
