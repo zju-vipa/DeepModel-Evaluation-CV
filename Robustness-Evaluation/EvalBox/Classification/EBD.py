@@ -2,8 +2,6 @@ import numpy as np
 import torch
 from torch.autograd import Variable
 import itertools
-# from EvalBox.Evaluation.evaluation import Evaluation
-# from EvalBox.Evaluation.evaluation import MIN_COMPENSATION
 
 import math
 from tqdm import tqdm
@@ -88,53 +86,6 @@ class EBD:
         return min_mag * direction_norm
 
 
-            
-
-            # print(mag.shape)
-
-
-        # for index in range(len(directions)):
-        #     direct = directions[index].view(1, C, H, W)
-        #     new_x = X + mags * direct
-        #     # print(new_x.shape)
-        #     new_x = torch.clamp(new_x, 0, 1)
-        #     with torch.no_grad():
-        #         output = self.model(new_x)
-        #     pred = torch.argmax(output, 1)
-        #     # 如果全部的扰动都没有造成预测错误，则扰动取最大值
-        #     # 若扰动产生预测错误，搜索最小预测错误扰动值
-        #     epsilon = init_mags[-1]
-        #     if((pred != y).data.sum().item() != 0):
-        #         ind = (pred != y).cpu().numpy().tolist().index(1)
-        #         epsilon = init_mags[ind]
-            
-        #     # 使用2-范数计算，sqrt(每个像素点扰动值^2 / 总像素点数)
-        #     # torch.norm(A) = sqrt(a11^2 + a12^2 + ... + ann^2)
-        #     bd = torch.norm(epsilon * direct / math.sqrt(C * H * W)).cpu().numpy()
-        #     bd_list.append(bd)
-            
-        #     # 以方向做ranking时，取该方向所有距离取平均
-        #     # direction_rst_list[index] += bd
-
-        # 以图片做ranking时，取所有方向上最小的BD值
-        # return min(bd_list)
-
-    # def _measure_one_batch(self, X, y, directions, mags, init_mags):
-
-    #     batch_size, C, H, W = X.shape
-    #     directions = directions.view(self.direction_nums, C, H, W)
-    #     for i in range(batch_size):
-    #         new_X = (X[i].unsqueeze(0).expand(directions.shape) + directions)
-            
-
-    #         for j, direction in enumerate(directions):
-    #             direction = direction.view(1, C, H, W)
-    #             new_X = torch.clamp(X[i] + mags * direction, 0, 1)
-    #             with torch.no_grad():
-    #                 output = self.model(new_X)
-    #             _, predicted = torch.max(output, 1)
-    #             epsilon = init_mags[-1]
-
 
     def apply(self, eval_loader=None):
         total = len(eval_loader)
@@ -173,45 +124,3 @@ class EBD:
 
             total_index += len(X)
 
-
-
-
-    def evaluate(self,X=None, y=None):
-        '''
-            Evaluate point to decision boundary
-        '''
-        total = len(X)
-        print("total", total)
-        device = self.device
-        self.model.eval().to(device)
-        N, C, H, W = X.shape
-        assert N != 0, "X's length cann't be 0."
-        vectors = self._orthogonal_vectors(C * H * W, self.direction_nums)
-        directions = torch.from_numpy(vectors).float().to(device)
-        mags, init_mags = self._mags()
-        mags = torch.from_numpy(mags).float().to(device).view(-1, 1, 1, 1)
-        
-        distance = 0
-        image_rst_list = []
-        direction_rst_list = [0 for i in range(len(directions))]
-        for i in tqdm(range(N)):
-            rst = self._measure_one_image(X[i:i+1], y[i:i+1], directions, mags, init_mags, direction_rst_list)
-            distance += rst
-            image_rst_list.append(rst)
-        
-        # 数据处理部分，分段处理取min(20, k%)的数据做展示
-        rate = 0.1
-        dir_step = int(len(directions) // min(20, len(directions) * rate))
-        img_step = int(total // min(20, total * rate))
-        direction_rst_list = [float('{:.4f}'.format(x / total)) for x in direction_rst_list][::dir_step]
-        image_rst_list = [float('{:.4f}'.format(x)) for x in image_rst_list][::img_step]
-        
-        with open("ebd.log", "a") as fp:
-            fp.write("-------------------------------\n按Image排序的EBD值\n")
-            image_rst_list.sort()
-            fp.write("{}\n".format(image_rst_list))
-            fp.write("按Direction排序的EBD值\n")
-            direction_rst_list.sort()
-            fp.write("{}\n".format(direction_rst_list))
-
-        return distance / N
