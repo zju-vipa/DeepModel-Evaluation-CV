@@ -108,7 +108,7 @@ class model_fetcher:
             "deit": {
                 "platform": "huggingface",
                 "model": transformers.DeiTForImageClassification,
-                "config": transformers.DeiTConfig(),
+                "config": transformers.DeiTConfig(num_labels=1000),
                 "transform": transforms.Compose([
                     transforms.ToTensor(),
                     transforms.Resize(
@@ -121,7 +121,7 @@ class model_fetcher:
             "swin": {
                 "platform": "huggingface",
                 "model": transformers.SwinForImageClassification,
-                "config": transformers.SwinConfig(),
+                "config": transformers.SwinConfig(num_labels=1000),
                 "transform": transforms.Compose([
                     transforms.ToTensor(),
                     transforms.Resize(
